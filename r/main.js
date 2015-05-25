@@ -1,12 +1,12 @@
 //项目对象
 var service = [
-		{ "project":"德胜凯旋项目" ,"img":"" , "office":"投资经理" , "name":"周慧" , "tel":"13701131133" },
-		{ "project":"金澳国际项目" ,"img":"" , "office":"投资经理" , "name":"周一" , "tel":"13701131133" },
-		{ "project":"永利国际项目" ,"img":"" , "office":"投资经理" , "name":"周二" , "tel":"13701131133" },
-		{ "project":"东方银座项目" ,"img":"" , "office":"投资经理" , "name":"周三" , "tel":"13701131133" },
-		{ "project":"宇飞大厦项目" ,"img":"" , "office":"投资经理" , "name":"周四" , "tel":"13701131133" },
-		{ "project":"金贸大厦项目" ,"img":"" , "office":"投资经理" , "name":"周五" , "tel":"13701131133" },
-		{ "project":"首城国际项目" ,"img":"" , "office":"投资经理" , "name":"周六" , "tel":"13701131133" }
+		{ "project":"德胜凯旋项目" ,"img":"r/i/rw.jpg" , "office":"投资经理" , "name":"周慧" , "tel":"13552916069" },
+		{ "project":"金澳国际项目" ,"img":"r/i/rw.jpg" , "office":"投资经理" , "name":"周慧" , "tel":"13552916069" },
+		{ "project":"永利国际项目" ,"img":"r/i/rw.jpg" , "office":"投资经理" , "name":"崔志伟" , "tel":"18612260700" },
+		{ "project":"东方银座项目" ,"img":"r/i/rw.jpg" , "office":"投资经理" , "name":"陈保君" , "tel":"13811530595" },
+		{ "project":"宇飞大厦项目" ,"img":"r/i/rw.jpg" , "office":"投资经理" , "name":"陈保君" , "tel":"13811530595" },
+		{ "project":"金贸大厦项目" ,"img":"r/i/rw.jpg" , "office":"投资经理" , "name":"刘中森" , "tel":"13911800041" },
+		{ "project":"首城国际项目" ,"img":"r/i/rw.jpg" , "office":"投资经理" , "name":"李芳" , "tel":"18046557441" }
 	];
 
 $(function(){

@@ -8,8 +8,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, videoimg {
     margin: 0;
@@ -19,7 +19,7 @@ time, mark, audio, videoimg {
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
@@ -218,3 +218,6 @@ footer a.wx:hover img,footer a.wx:hover i{display:block;}
 .job-info li i{position:absolute;width:40px;height:40px;bottom:0;left:50%;margin-left:-20px;background:#f7c58f;}
 .job-info li strong{padding-top:30px;display:inline-block;}
 
+.contact {
+    /*text-align: center;*/
+}
