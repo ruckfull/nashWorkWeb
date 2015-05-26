@@ -18,7 +18,7 @@ $(function(){
 		$card.find('h5').text(name);
 		$card.find('h6').text(tel);
 	}
-	$('.service-img a').on('click',function(e){
+	$('.service-img-join a').on('click',function(e){
 		e.preventDefault();
 		var id = this.getAttribute('_data');
 		if(id){

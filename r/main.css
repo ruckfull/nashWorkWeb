@@ -66,13 +66,14 @@ header .mainNav li.on a,header .mainNav li a:hover{background:rgba(0,0,0,.3);}
 .index-space hr{border:none;border-bottom:1px solid #999;height:0;display:block;padding:110px 0 0 0;position:relative;margin:0 0 40px;}
 .index-space h3{display:block;width:270px;height:50px;line-height:50px;font-size:56px;position:absolute;top:80px;left:50%;margin-left:-135px;background:#f4f4f4;text-align:center;z-index:1;color:#363636;}
 .index-space p{font-size:20px;text-align:center;color:#656565;}
-.index-space ul{display:block;width:1170px;margin:40px auto 0;padding-bottom:30px;}
+.index-space ul{display:block;width:1170px;margin:40px auto 0;padding-bottom:80px;}
 .index-space ul::after{content:'\0020';display:block;clear:both;height:0;}
 .index-space li{float:left;width:390px;line-height:150%;color:#363636;}
 .index-space li img{width:390px;border-bottom:40px solid #959595;margin-bottom:25px;}
 .index-space li.imgBottom img{border-bottom:none;border-top:40px solid #959595;margin:25px 0 0;}
 .index-space li h4{font-size:28px;padding:0 0 10px 20px;}
 .index-space li p{padding:0 0 0 20px;font-size:13px;text-align:left;line-height:25px;}
+.index-space li span{font-size:28px;padding:0 0 10px 20px;color:#363636;}
 
 .index-service{height:750px;background:#F5EBE0 url(i/04.jpg) center no-repeat;}
 .index-service h3{display:block;width:270px;height:50px;line-height:50px;font-size:56px;position:absolute;top:80px;left:50%;margin-left:-135px;text-align:center;z-index:1;color:#363636;}
@@ -90,7 +91,7 @@ header .mainNav li.on a,header .mainNav li a:hover{background:rgba(0,0,0,.3);}
 .index-service li:hover p{display:block;}
 
 .index-social{height:600px;background:#CDA981 url(i/05.jpg) center no-repeat;}
-.index-social h3{position:absolute;width:575px;height:100px;padding:25px 0;border:8px solid #E9E3DD;color:#E9E3DD;top:140px;left:50%;margin-left:-287px;font-size:52px;text-align:center;line-height:55px;}
+.index-social h3{position:absolute;width:575px;height:100px;padding:25px 0;border:8px solid #E9E3DD;color:#E9E3DD;top:140px;left:50%;margin-left:-295px;font-size:52px;text-align:center;line-height:55px;}
 .index-social small{font-size:20px;display:block;}
 .index-social .left{position:absolute;width:480px;height:110px;bottom:70px;left:50%;margin-left:-480px;font-size:26px;color:#E9E3DD;line-height:40px;}
 .index-social .left i{position:absolute;left:-30px;}
