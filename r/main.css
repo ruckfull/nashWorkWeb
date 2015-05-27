@@ -90,7 +90,7 @@ header .mainNav li.on a,header .mainNav li a:hover{background:rgba(0,0,0,.3);}
 .index-service li:hover h4,.index-service li:hover i{display:none;}
 .index-service li:hover p{display:block;}
 
-.index-social{height:600px;background:#CDA981 url(i/05.jpg) center no-repeat;}
+.index-social{height:600px;background:#CDA981 url(i/dt_01.jpg) center no-repeat;}
 .index-social h3{position:absolute;width:575px;height:100px;padding:25px 0;border:8px solid #E9E3DD;color:#E9E3DD;top:140px;left:50%;margin-left:-295px;font-size:52px;text-align:center;line-height:55px;}
 .index-social small{font-size:20px;display:block;}
 .index-social .left{position:absolute;width:480px;height:110px;bottom:70px;left:50%;margin-left:-480px;font-size:26px;color:#E9E3DD;line-height:40px;}
@@ -118,7 +118,7 @@ ul.join-map li.ij-7 i{top:180px;left:365px;z-index:9;}
 .index-job h3{position:absolute;font-size:92px;top:33%;left:50%;color:#fff;font-family: Arial;border-bottom:1px solid #fff;line-height:105px;margin-left:-288px;font-weight:600;}
 .index-job a{position:absolute;font-size:54px;color:#fff;top:57%;left:50%;margin-left:-81px;}
 
-footer{width:1110px;height:150px;margin:75px auto 0;line-height:35px;padding:1px;color:#777;}
+footer{width:1110px;height:150px;margin:75px auto 75px;line-height:35px;padding:1px;color:#777;}
 footer a.logo-foot{float:left;margin-right:50px;}
 footer a.link{margin:20px 20px 0 0;display:inline-block;color:#fff;}
 footer a.wx{float:right;width:61px;height:61px;background: url(i/10.png) no-repeat;margin-top:20px;position:relative;}
@@ -130,7 +130,7 @@ footer a.wx:hover img,footer a.wx:hover i{display:block;}
 .layer-ban hr{border:none;border-bottom:1px solid #999;height:0;display:block;padding:110px 0 0 0;position:relative;margin:0 0 40px;}
 .layer-ban h3{display:block;width:auto;height:50px;line-height:50px;font-size:56px;position:absolute;top:80px;left:50%;margin-left:-135px;background:#f4f4f4;text-align:center;z-index:1;color:#363636;padding:0 20px;}
 
-.layer-ban p{width:1100px;margin:120px auto 0;font-size:24px;line-height:40px;}
+.layer-ban p{width:1100px;margin:120px auto 0;font-size:24px;line-height:48px;color:#202020;font-family: 微软雅黑}
 
 .join-img{height:600px;padding:80px 0 0;background:#f4f4f4;}
 .join-img ul{width:1200px;height:520px;background:#efefef;margin:0 auto;}
@@ -212,8 +212,8 @@ footer a.wx:hover img,footer a.wx:hover i{display:block;}
 .about-info3 li h4{font-size:32px;line-height:60px;color:#363636;}
 
 .job-tit h4{width:1100px;margin:0 auto;padding:70px 0 30px;font-size:32px;}
-.job-tit p{margin:50px auto;text-align:center;background:rgba(241,142,56,0.8);padding:10px 0;}
-.job-info li{display:block;padding:50px 0 100px;background:#fff;text-align:center;font-size:25px;line-height:50px;color:#666;position:relative;}
+.job-tit p{margin:50px auto;text-align:left;background:rgba(241,142,56,0.8);padding:10px 0;}
+.job-info li{display:block;padding:50px 0 100px;background:#fff;text-align:center;font-size:25px;line-height:50px;color:#B6B6B6;position:relative;}
 .job-info li:nth-child(even){background:#f4f4f4;}
 .job-info li h5{font-size:32px;line-height:60px;color:#333;}
 .job-info li i{position:absolute;width:40px;height:40px;bottom:0;left:50%;margin-left:-20px;background:#f7c58f;}
