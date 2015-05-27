@@ -90,18 +90,28 @@ header .mainNav li.on a,header .mainNav li a:hover{background:rgba(0,0,0,.3);}
 .index-service li:hover h4,.index-service li:hover i{display:none;}
 /*.index-service li:hover p{display:block;}*/
 .index-service li:hover p{
-    display:block;
-    animation-duration: 1s;
+    display: block;
+    animation-duration: 2s;
     animation-name: slidein;
+    -moz-animation:slidein 2s; /* Firefox */
+    -webkit-animation:slidein 2s; /* Safari and Chrome */
+    -o-animation:slidein 2s; /* Opera */
 }
 @keyframes slidein {
-  from {
-    opacity:0.4;
-  }
-
-  to {
-    opacity:1.0;
-  }
+  from {opacity:0.4;}
+  to {opacity:1.0;background: #F9AF55}
+}
+@-moz-keyframes slidein {
+  from {opacity:0.4;}
+  to {opacity:1.0;background: #F9AF55}
+}
+@-webkit-keyframes slidein {
+  from {opacity:0.4;}
+  to {opacity:1.0;background: #F9AF55}
+}
+@-o-keyframes slidein {
+  from {opacity:0.4;}
+  to {opacity:1.0;background: #F9AF55}
 }
 
 
