@@ -96,13 +96,11 @@ header .mainNav li.on a,header .mainNav li a:hover{background:rgba(0,0,0,.3);}
 }
 @keyframes slidein {
   from {
-    margin-top: 20%;
-    width: 100%;
+    opacity:0.4;
   }
 
   to {
-    margin-top: 0%;
-    width: 100%;
+    opacity:1.0;
   }
 }
 
