@@ -47,7 +47,7 @@ a:hover{text-decoration:none;outline:none;}
 .show{display:block;}
 
 /* index */
-.index-top{height:810px;background:#144461 url(http://s.nashspace.com/r/i/00.jpg) center top no-repeat;text-align:center;}
+
 header{width:1200px;height:160px;margin:0 auto;overflow:hidden;}
 header h1{padding-top:50px;color:#fff;font-size:25px;letter-spacing:30px;line-height:150px;float:left;}
 header h1 img{margin-right:30px;float:left;}
@@ -55,11 +55,22 @@ header .mainNav{float:right;width:710px;}
 header .mainNav li{width:140px;height:90px;line-height:50px;text-align:center;float:left;margin-right:1px;}
 header .mainNav li a{color:#fff;width:100%;height:100%;height:50px;padding-top:40px;display:block;font-size:14px;}
 header .mainNav li.on a,header .mainNav li a:hover{background:rgba(0,0,0,.3);}
+
+.index-top{height:810px;background:#144461 url(http://s.nashspace.com/r/i/00.jpg) center top no-repeat;text-align:center;}
 .index-top h2{font-size:80px;line-height:130px;clear:both;text-align:center;color:#fff;padding-top:110px;}
 .index-top p.slogan{text-align:center;border-top:1px solid #eee;border-bottom:1px solid #eee;display:inline-block;letter-spacing:20px;color:#fff;font-size:24px;    text-indent:20px;height:50px;line-height:50px;}
 .index-top p.slogan span{margin:0 70px;}
 .index-top a.login{display:block;width:270px;height:40px;line-height:40px;margin:35px auto;color:#fff;background:#f69002;font-size:16px;letter-spacing:5px;text-indent:5px;}
 .index-top p.tel{font-size:35px;font-family:Arial;color:#fff;font-weight:0;}
+
+.index-top-1{height:810px;background:#144461 url(http://s.nashspace.com/r/j/00.jpg) center top no-repeat;text-align:center;}
+.index-top-1 h2{font-size:80px;line-height:130px;clear:both;text-align:center;color:#fff;padding-top:110px;}
+.index-top-1 p.slogan{text-align:center;border-top:1px solid #eee;border-bottom:1px solid #eee;display:inline-block;letter-spacing:20px;color:#fff;font-size:24px;    text-indent:20px;height:50px;line-height:50px;}
+.index-top-1 p.slogan span{margin:0 70px;}
+.index-top-1 a.login{display:block;width:270px;height:40px;line-height:40px;margin:35px auto;color:#fff;background:#f69002;font-size:16px;letter-spacing:5px;text-indent:5px;}
+.index-top-1 p.tel{font-size:35px;font-family:Arial;color:#fff;font-weight:0;margin-top: -50px;color: #000000;}
+
+.strong_num {font-size: 30px;color: #f69002;}
 
 .layer{position:relative;}
 .index-space{background:#f4f4f4;}
@@ -154,8 +165,12 @@ footer a.wx:hover img,footer a.wx:hover i{display:block;}
 .layer-ban{height:500px;background:#C3C3C3 url(http://s.nashspace.com/r/i/13.jpg) center top no-repeat;}
 .layer-ban hr{border:none;border-bottom:1px solid #999;height:0;display:block;padding:110px 0 0 0;position:relative;margin:0 0 40px;}
 .layer-ban h3{display:block;width:auto;height:50px;line-height:50px;font-size:56px;position:absolute;top:80px;left:50%;margin-left:-135px;background:#f4f4f4;text-align:center;z-index:1;color:#363636;padding:0 20px;}
-
 .layer-ban p{width:1100px;margin:120px auto 0;font-size:24px;line-height:48px;color:#202020;}
+
+.layer-ban-1{height:600px;background:#C3C3C3 url(http://s.nashspace.com/r/i/13.jpg) center top no-repeat;}
+.layer-ban-1 hr{border:none;border-bottom:1px solid #999;height:0;display:block;padding:110px 0 0 0;position:relative;margin:0 0 40px;}
+.layer-ban-1 h3{display:block;width:auto;height:50px;line-height:50px;font-size:56px;position:absolute;top:80px;left:50%;margin-left:-135px;background:#f4f4f4;text-align:center;z-index:1;color:#363636;padding:0 20px;}
+.layer-ban-1 p{width:1100px;margin:120px auto 0;font-size:24px;line-height:48px;color:#202020;}
 
 .join-img{height:600px;padding:80px 0 0;background:#f4f4f4;}
 .join-img ul{width:1200px;height:520px;background:#efefef;margin:0 auto;}
@@ -195,6 +210,7 @@ footer a.wx:hover img,footer a.wx:hover i{display:block;}
 .project-contact li h4{font-size:28px;line-height:40px;}
 
 .service-tit p{color:#f18e38;font-size:36px;line-height:120px;text-align:center;}
+.service-tit-1 p{color:#202020;font-size:24;line-height:48px;text-align:left;}
 .service-info{background:#f4f4f4;height:490px;}
 .service-info1{background:#F3EDE2 url(http://s.nashspace.com/r/i/14.jpg) center top no-repeat;height:740px;}
 .service-info2{background:#F4F4F4 url(http://s.nashspace.com/r/i/dt_02.jpg) center top no-repeat;height:600px;}
@@ -214,7 +230,8 @@ footer a.wx:hover img,footer a.wx:hover i{display:block;}
 .modal .service-card small{font-size:20px;line-height:30px;}
 .modal .service-card h5,.modal .service-card h6{font-size:32px;line-height:50px;}
 
-.about-tit{height:240px;}
+/*.about-tit{height:240px;}*/
+.about-tit{height:600px;}
 .about-info{background:#f4f4f4;padding:60px 0;}
 .about-info p{width:1100px;margin:0 auto;font-size:20px;line-height:40px;}
 .about-info p.sub{color:#656565;}
@@ -237,7 +254,8 @@ footer a.wx:hover img,footer a.wx:hover i{display:block;}
 .about-info3 li h4{font-size:32px;line-height:60px;color:#363636;}
 
 .job-tit h4{width:1100px;margin:0 auto;padding:70px 0 30px;font-size:32px;}
-.job-tit p{margin:50px auto;text-align:left;background:rgba(241,142,56,0.8);padding:10px 0;}
+/*.job-tit p{margin:50px auto;text-align:left;background:rgba(241,142,56,0.8);padding:10px 0;}*/
+.job-tit p{margin:50px auto;text-align:left;background:rgba(0, 0, 0, 0);padding:10px 0;line-height:48px; color:#202020; font-size:24px;}
 .job-info li{display:block;padding:50px 0 100px;background:#fff;text-align:center;font-size:25px;line-height:50px;color:#B6B6B6;position:relative;}
 .job-info li:nth-child(even){background:#f4f4f4;}
 .job-info li h5{font-size:32px;line-height:60px;color:#333;}
