@@ -33,9 +33,11 @@ $(function(){
 
 	if($('.imgFocus').length > 0){
 		var imgList = $('.imgFocus ul'),
-			WIDTH = $('.imgFocus li img').width(),
+			// WIDTH = $('.imgFocus li img').width(),
+			WIDTH = 800;
 			imgLeft = -WIDTH,
-			totalWidth = $('.imgFocus li').length * WIDTH + WIDTH*2,
+			// totalWidth = $('.imgFocus li').length * WIDTH + WIDTH*2,
+			totalWidth = 6 * WIDTH + WIDTH*2;
 			firstLi = $('.imgFocus li:first').html(),
 			lastLi = $('.imgFocus li:last').html();
 		imgList.append('<li>'+firstLi+'</li>');
