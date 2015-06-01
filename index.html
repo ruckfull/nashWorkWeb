@@ -4,9 +4,8 @@
         <meta charset="utf-8" />
         <title>纳什空间 | 首页</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-        <link rel="stylesheet" type="text/css" href="r/main.css">
-        <!-- <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 800px)" href="r/m.css" />
-        <link rel="stylesheet" type="text/css" media="screen and (min-width: 800px) and (max-device-width: 2880px)" href="r/main.css" /> -->
+        <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 800px)" href="r/m.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (min-width: 800px) and (max-device-width: 2880px)" href="r/main.css" />
     </head>
     <body class="index">
     	<div class="index-top">
@@ -35,9 +34,9 @@
                     <p>功能完备的工作空间，等待你来，只为你的的无需等待</p>
     			</li>
     			<li class="imgBottom">
+                    <img src="http://s.nashspace.com/r/i/02.jpg" alt="">
     				<h4>精心设计·释放你的热情</h4>
     				<p>动人贴心的空间体验，专为精英企业家和新锐创业者量身定制</p>
-    				<img src="http://s.nashspace.com/r/i/02.jpg" alt="">
     			</li>
     			<li>
     				<img src="http://s.nashspace.com/r/i/03.jpg" alt="">
@@ -116,9 +115,9 @@
     			<li class="ij-7"><a href="join_yinzuo.html">东方银座<i>东方银座</i></a></li>
     		</ul>
     	</div>
-    	<div class="layer index-job">
-    		<h3>NASH.WORK</h3>
-    		<a href="job.html">需要你</a>
+    	<div class="layer index-job" onclick="window.location.href = 'job.html'">
+    		<!-- <h3>NASH.WORK</h3>
+    		<a href="job.html">需要你</a> -->
     	</div>
 
 		<footer>
@@ -127,5 +126,18 @@
 			<a href="http://weixin.sogou.com/gzh?openid=oIWsFt8d18kQnQt0VrWYpbnJATpM" target="_blank" class="link">纳什动态</a><a href="contact.html" class="link">联系我们</a> <a href="link.html" class="link">友情链接</a>
 			<p class="copyRight">2015 纳什空间 版权所有 nash.work</p>
         </footer>
+        <script type="text/javascript" src="r/common.js"></script>
+        <script type="text/javascript">
+        $(function(){
+            $('.index-service li').on('click',function(){
+                console.log($(this))
+                if($(this).hasClass('on')){
+                    $(this).removeClass('on');
+                }else{
+                    $(this).addClass('on');
+                }
+            });
+        });
+        </script>
     </body>
 </html>

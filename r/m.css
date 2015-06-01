@@ -33,26 +33,29 @@ header .mainNav li:first-child{display:none;}
 header .mainNav li a{color:#aaa;padding:0 .03rem;}
 header .mainNav li.on{background:#454545;}
 
-.index-top{background:#144461 url(i/00.jpg) center top no-repeat;width:100%;background-size:contain;height:1.36rem;padding-top:.15rem;}
+.index-top{background:#144461 url(http://s.nashspace.com/r/i/00.jpg) center top no-repeat;width:100%;background-size:contain;height:1.36rem;padding-top:.15rem;}
 .index-top h2,.index-top p{text-align:center;color:#bbb;}
 .index-top .login{display:block;margin:.1rem auto;width:.9rem;text-align:center;color:#fff;background:#f69002;}
 .layer{padding:.1rem;}
 .layer h3{text-align:center;margin-bottom:.05rem;}
 .layer small{text-align:center;display:block;}
 .layer p{margin-bottom:.05rem;}
-.layer li{margin:.1rem 0 .05rem;}
+/*.layer li{margin:.1rem 0 .05rem;}*/
 .layer li h4{margin-top:.05rem;}
 
 .index-service ul:after{content:'\0020';display:block;clear:both;height:0;}
 .index-service li{width:50%;float:left;}
 
-.index-social{height:1.6rem;background:#CDA981 url(i/05.jpg) center no-repeat;color:#fff;}
+.index-social{height:1.6rem;background:#CDA981 url(http://s.nashspace.com/r/i/05.jpg) center no-repeat;color:#fff;}
+.index-social h3{margin-bottom:.25rem;}
+.index-social .left{text-align:left;float:left;}
+.index-social .right{float:right;text-align:right;}
 
 .index-join,.join-join{background:#FBC93B;color:#363636;position:relative;}
 
-ul.join-map{display:block;height:2rem;background:url(i/06.jpg) left top no-repeat;background-size:contain;position:relative;}
+ul.join-map{display:block;height:2rem;background:url(http://s.nashspace.com/r/i/06.jpg) left top no-repeat;background-size:contain;position:relative;}
 ul.join-map li{width:120px;height:60px;float:left;font-size:20px;}
-ul.join-map li a{position:absolute;width:.7rem;height:.25rem;background:url(i/m01.png) no-repeat;background-size:contain;color:#fff;font-size:.11rem;padding-left:.2rem;}
+ul.join-map li a{position:absolute;width:.7rem;height:.25rem;background:url(http://s.nashspace.com/r/i/m01.png) no-repeat;background-size:contain;color:#fff;font-size:.11rem;padding-left:.2rem;}
 ul.join-map li a i{display:none;}
 ul.join-map li.ij-1 a{top:.9rem;left:1.41rem;}
 ul.join-map li.ij-2 a{top:.82rem;left:2.1rem;}
@@ -62,8 +65,20 @@ ul.join-map li.ij-5 a{top:1.3rem;left:2rem;}
 ul.join-map li.ij-6 a{top:1.65rem;left:2.3rem;}
 ul.join-map li.ij-7 a{top:1.1rem;left:1.8rem;z-index:9;}
 
+.index-service{background:#F5EBE0 url(http://s.nashspace.com/r/i/04.jpg) center no-repeat;}
+.index-service ul{display:block;margin:.1rem -10px;}
+.index-service li{background:#f5f5f5;width:48%;margin:0 1% .07rem;height:1.7rem;}
+.index-service .icon{width:100px;height:100px;background-repeat:no-repeat;background-image:url(http://s.nashspace.com/r/i/09.png);display:block;margin:.3rem auto .2rem;}
+.index-service .i1{background-position:0 0;}
+.index-service .i2{background-position:-100px 0;}
+.index-service .i3{background-position:-200px 0;}
+.index-service .i4{background-position:-300px 0;}
+.index-service h4{font-size:.2rem; text-align:center;color:#656565;}
+.index-service p{display:block;width:100%;height:100%;padding-top:.3rem;background:#F9AF55;font-size:.15rem;color:#fff;line-height:180%;text-align:center;display:none;}
+.index-service li.on p{display:block;}
+.index-service li.on h4,.index-service li.on i{display:none;}
 
-.index-job{background:#475665 url(i/07.jpg) center no-repeat;background-size:contain;height:1rem;position:relative;text-align:center;text-align:center;}
+.index-job{background:#475665 url(http://s.nashspace.com/r/i/071.jpg) center no-repeat;background-size:contain;height:1rem;position:relative;text-align:center;text-align:center;}
 .index-job h3{color:#eee;margin-top:.1rem;}
 .index-job a{font-size:.13rem;color:#fff;}
 
@@ -75,16 +90,24 @@ footer a.wx{display:none;}
 footer p.copyRight{margin-top:.03rem;}
 
 .layer img{width:100%;}
-.layer-ban{height:.83rem;background:#C3C3C3 url(i/13.jpg) center top no-repeat;background-size:contain;}
-.layer-ban-1{height:2.400rem;background:#C3C3C3 url(i/13.jpg) center top no-repeat;background-size:contain;}
+.layer-ban{height:.83rem;background:#C3C3C3 url(http://s.nashspace.com/r/i/096.jpg) center top no-repeat;background-size:contain;}
+
+.layer-ban.service-tit{ text-align:center;font-size:.13rem;padding:.5rem 0 0;color:#f18e38;}
+.layer-ban.service-tit .index-top-1 a{background:#f69002;color:#fff;padding:.1rem .2rem;margin:.3rem 0 .2rem;display:inline-block;}
+
+.layer-ban-1{height:2.400rem;background:#C3C3C3 url(http://s.nashspace.com/r/i/096.jpg) center top no-repeat;background-size:100% 2.4rem;}
+
+
 
 .about-info2{background:#f3e0ce;}
 
-.about-tit{height:2.5rem;background-size:100%;}
+.about-tit{height:2.5rem;background-size:100% 2.5rem;}
+.about-tit-no{height:.5rem;background-size:100% 2.5rem;}
 .join-tit{height:1.5rem;background-size:180%;}
 
+.co-link {height:4.3rem;}
 .co-link-list:after{content:'\0020';display:block;clear:both;height:0;}
-.co-link-list li{width:50%;float:left;padding:0 .05rem;}
+.co-link-list li{width:50%;float:left;padding:.03rem .05rem}
 
 .imgFocus{background:#333;width:100%;position:relative;padding:0;}
 .imgFocus .imgFocusBox{width:100%;height:2.1rem;overflow:hidden;position:relative;}
@@ -92,21 +115,21 @@ footer p.copyRight{margin-top:.03rem;}
 .imgFocus ul:after{content:'\0020';display:block;clear:both;height:0;}
 .imgFocus ul li{width:3rem;float:left;}
 .imgFocus a{position:absolute;width:.3rem;height:100%;background-color:rgba(0,0,0,.7);background-repeat:no-repeat;z-index:1;background-size:contain;}
-.imgFocus a.prev{position:absolute;left:0;top:0;background-image:url(i/prev.png);background-position:right center;}
-.imgFocus a.next{position:absolute;top:0;right:0;background-image:url(i/next.png);background-position:left center;}
-.iframe{width:100%;}
+.imgFocus a.prev{position:absolute;left:0;top:0;background-image:url(http://s.nashspace.com/r/i/prev.png);background-position:right center;}
+.imgFocus a.next{position:absolute;top:0;right:0;background-image:url(http://s.nashspace.com/r/i/next.png);background-position:left center;}
+iframe{margin:0 -.1rem;}
 .join-project{height:2rem;background-size:240%}
 .modal{width:100%;height:100%;background:rgba(0,0,0,.7);position:fixed;top:0;left:0;z-index:100;display:none;}
-.modal .service-card{width:2rem;height:3rem;position:absolute;top:50%;left:50%;margin:-1.5rem 0 0 -1rem;color:#fff;padding-top:.5rem;}
+.modal .service-card{width:2rem;height:3rem;position:absolute;top:50%;left:50%;margin:-1rem 0 0 -1rem;color:#fff;padding-top:.5rem;}
 .modal .service-card img{width:.6rem;height:.8rem;background:#f5ad60;float:left;margin-right:.1rem;}
 .modal .service-card h4{font-size:.28rem;line-height:.2rem;position:absolute;top:0;left:0;}
 .modal .service-card small{font-size:.14rem;line-height:.3rem;}
 .modal .service-card h5,.modal .service-card h6{font-size:.16rem;line-height:.25rem;}
 
 /*.job-tit{height:1.3rem;background-size:180%}*/
-.job-tit{height:1.8rem;background-size:180%}
-.service-info1{background: url(i/14.jpg) center top no-repeat;background-size:170%;}
-.service-info2{background: url(i/15.jpg) center top no-repeat;background-size:170%;}
+.job-tit{height:1.8rem;background-size:180% 1.8rem}
+.service-info1{background: url(http://s.nashspace.com/r/i/14.jpg) center top no-repeat;background-size:170%;}
+.service-info2{background: url(http://s.nashspace.com/r/i/15.jpg) center top no-repeat;background-size:170%;}
 .service-info dt{font-size:.13rem;margin-bottom:.05rem;}
 .service-info dd{font-size:.10rem;margin-bottom:.1rem;}
 .service-info li{background:#f5ad60;}
@@ -119,7 +142,8 @@ footer p.copyRight{margin-top:.03rem;}
 .join-img li{position:relative;}
 .join-img li p{position:absolute;width:100%;height:.35rem;bottom:0;background:rgba(0,0,0,.5);color:#fff;line-height:.35rem;text-indent:1em;font-size:.13rem;margin:0;}
 
-.job-info li{background:#fff;text-align:center;font-size:.12rem;line-height:.2rem;color:#666;position:relative;padding-bottom:.3rem;}
+.job-info{padding:.1rem 0;}
+.job-info li{background:#fff;text-align:center;font-size:.12rem;line-height:.2rem;color:#666;position:relative;padding:0 .1rem .3rem;}
 .job-info li:nth-child(even){background:#f4f4f4;}
 .job-info li h5{font-size:.16rem;line-height:.3rem;color:#333;}
 .job-info li i{position:absolute;width:.2rem;height:.2rem;bottom:0;left:50%;margin-left:-.1rem;background:#f7c58f;}
