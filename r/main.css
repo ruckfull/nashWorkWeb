@@ -202,7 +202,7 @@ footer a.wx:hover img,footer a.wx:hover i{display:block;}
 .project-map{background:#fff;text-align:center;position:relative;height:460px;}
 .project-map iframe{width:1000px;height:460px;margin:0 auto;}
 
-.project-contact{height:850px;margin:0 auto;background:#fff;}
+.project-contact{height:850px;margin:0 auto;background:#fff;text-align: center;}
 .project-contact h3{padding:50px 10px 10px; text-align:center;font-size:36px;line-height:50px;}
 .project-contact p{font-size:24px;text-align:center;line-height:40px;}
 .project-contact ul{width:1180px;display:block;margin:50px auto;}
