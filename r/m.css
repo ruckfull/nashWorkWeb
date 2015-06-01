@@ -40,8 +40,11 @@ header .mainNav li.on{background:#454545;}
 .layer h3{text-align:center;margin-bottom:.05rem;}
 .layer small{text-align:center;display:block;}
 .layer p{margin-bottom:.05rem;}
+.index-space p {text-align: center;}
 /*.layer li{margin:.1rem 0 .05rem;}*/
 .layer li h4{margin-top:.05rem;}
+.index-space li {margin-top: .3rem;}
+.index-space li p {text-align: left;}
 
 .index-service ul:after{content:'\0020';display:block;clear:both;height:0;}
 .index-service li{width:50%;float:left;}
