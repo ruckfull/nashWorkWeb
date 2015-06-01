@@ -46,7 +46,7 @@ header .mainNav li.on{background:#454545;}
 .index-service ul:after{content:'\0020';display:block;clear:both;height:0;}
 .index-service li{width:50%;float:left;}
 
-.index-social{height:1.6rem;background:#CDA981 url(http://s.nashspace.com/r/i/05.jpg) center no-repeat;color:#fff;}
+.index-social{height:1.6rem;background:#CDA981 url(http://s.nashspace.com/r/i/dt_01.jpg) center no-repeat;color:#fff;}
 .index-social h3{margin-bottom:.25rem;}
 .index-social .left{text-align:left;float:left;}
 .index-social .right{float:right;text-align:right;}
@@ -54,7 +54,7 @@ header .mainNav li.on{background:#454545;}
 .index-join,.join-join{background:#FBC93B;color:#363636;position:relative;}
 
 ul.join-map{display:block;height:2rem;background:url(http://s.nashspace.com/r/i/06.jpg) left top no-repeat;background-size:contain;position:relative;}
-ul.join-map li{width:120px;height:60px;float:left;font-size:20px;}
+ul.join-map li{/*width:120px;*/height:60px;float:left;font-size:20px;}
 ul.join-map li a{position:absolute;width:.7rem;height:.25rem;background:url(http://s.nashspace.com/r/i/m01.png) no-repeat;background-size:contain;color:#fff;font-size:.11rem;padding-left:.2rem;}
 ul.join-map li a i{display:none;}
 ul.join-map li.ij-1 a{top:.9rem;left:1.41rem;}
@@ -94,6 +94,7 @@ footer p.copyRight{margin-top:.03rem;}
 
 .layer-ban.service-tit{ text-align:center;font-size:.13rem;padding:.5rem 0 0;color:#f18e38;}
 .layer-ban.service-tit .index-top-1 a{background:#f69002;color:#fff;padding:.1rem .2rem;margin:.3rem 0 .2rem;display:inline-block;}
+.index-top-1 span {background: #ffffff; color: #000000;};
 
 .layer-ban-1{height:2.400rem;background:#C3C3C3 url(http://s.nashspace.com/r/i/096.jpg) center top no-repeat;background-size:100% 2.4rem;}
 
@@ -118,7 +119,7 @@ footer p.copyRight{margin-top:.03rem;}
 .imgFocus a.prev{position:absolute;left:0;top:0;background-image:url(http://s.nashspace.com/r/i/prev.png);background-position:right center;}
 .imgFocus a.next{position:absolute;top:0;right:0;background-image:url(http://s.nashspace.com/r/i/next.png);background-position:left center;}
 iframe{margin:0 -.1rem;}
-.join-project{height:2rem;background-size:240%}
+.join-project{height:2.2rem;background-size:240%; background:#f4ebe1;}
 .modal{width:100%;height:100%;background:rgba(0,0,0,.7);position:fixed;top:0;left:0;z-index:100;display:none;}
 .modal .service-card{width:2rem;height:3rem;position:absolute;top:50%;left:50%;margin:-1rem 0 0 -1rem;color:#fff;padding-top:.5rem;}
 .modal .service-card img{width:.6rem;height:.8rem;background:#f5ad60;float:left;margin-right:.1rem;}

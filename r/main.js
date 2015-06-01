@@ -69,6 +69,4 @@ $(function(){
 		$('.contact').find('iframe').attr('width',$('body').width())
 		.attr('src',newUrl);
 	}
-			
-
 });
