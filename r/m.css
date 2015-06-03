@@ -130,7 +130,7 @@ iframe{margin:0 -.1rem;}
 /*.job-tit{height:1.3rem;background-size:180%}*/
 .job-tit{height:1.8rem;background-size:180% 1.8rem}
 .service-info1{background: url(http://s.nashspace.com/r/i/14.jpg) center top no-repeat;background-size:170%;}
-.service-info2{background: url(http://s.nashspace.com/r/i/15.jpg) center top no-repeat;background-size:170%;}
+.service-info2{background: url(http://s.nashspace.com/r/i/15.jpg) center top no-repeat;background-size:300%;}
 .service-info dt{font-size:.13rem;margin-bottom:.05rem;}
 .service-info dd{font-size:.10rem;margin-bottom:.1rem;}
 .service-info li{background:#f5ad60;}
@@ -139,6 +139,9 @@ iframe{margin:0 -.1rem;}
 .about-info2 h4{color:#f18e38;line-height:.3rem;margin-bottom:.05rem;}
 .about-info2 li{margin-bottom:.2rem;}
 .about-info strong{display:block;margin:0 auto;width:2rem;text-align:center;font-size:.2rem;color:#f18e38;line-height:.4rem;}
+
+.service-layer-ban {background: #FFFFFF; height: 2.0rem;}
+.service-info .dl-2 {padding: 0 0 0;}
 
 .about-info3 ul li {
     margin-top:.2rem;
