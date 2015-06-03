@@ -113,7 +113,7 @@ header .mainNav li.on a,header .mainNav li a:hover{background:rgba(0,0,0,.3);}
 .index-top a.login{display:block;width:270px;height:40px;line-height:40px;margin:35px auto;color:#fff;background:#f69002;font-size:16px;letter-spacing:5px;text-indent:5px;}
 .index-top p.tel{font-size:35px;font-family:Arial;color:#fff;font-weight:0;}
 
-.index-top-1{height:810px;background:#144461 url(http://s.nashspace.com/r/j/00.jpg) center top no-repeat;text-align:center;}
+.index-top-1{height:810px;background:#144461 url(http://s.nashspace.com/r/j/00.jpg) center top no-repeat;text-align:center; margin-top: -40px;}
 .index-top-1 h2{font-size:80px;line-height:130px;clear:both;text-align:center;color:#fff;padding-top:110px;}
 .index-top-1 p.slogan{text-align:center;border-top:1px solid #eee;border-bottom:1px solid #eee;display:inline-block;letter-spacing:20px;color:#fff;font-size:24px;    text-indent:20px;height:50px;line-height:50px;}
 .index-top-1 p.slogan span{margin:0 70px;}
@@ -291,7 +291,7 @@ footer a.wx:hover img,footer a.wx:hover i{display:block;}
 
 /*.about-tit{height:240px;}*/
 .about-tit{height:600px;}
-.about-tit-no{height:300px;}
+.about-tit-no{height:300px;margin-top:160px;}
 .about-info{background:#f4f4f4;padding:60px 0;}
 .about-info p{width:1100px;margin:0 auto;font-size:20px;line-height:40px;}
 .about-info p.sub{color:#656565;}
