@@ -49,7 +49,7 @@ header .mainNav li.on{background:#454545;}
 .index-service ul:after{content:'\0020';display:block;clear:both;height:0;}
 .index-service li{width:50%;float:left;}
 
-.index-social{height:1.6rem;background:#CDA981 url(http://s.nashspace.com/r/i/dt_01.jpg) center no-repeat;color:#fff;}
+.index-social{height:1.6rem;background:#CDA981 url(http://nashspace.b0.upaiyun.com/r/index/hl_01.jpg) center no-repeat;color:#fff;}
 .index-social h3{margin-bottom:.25rem;}
 .index-social .left{text-align:left;float:left;}
 .index-social .right{float:right;text-align:right;}
@@ -81,7 +81,7 @@ ul.join-map li.ij-7 a{top:1.1rem;left:1.8rem;z-index:9;}
 .index-service li.on p{display:block;}
 .index-service li.on h4,.index-service li.on i{display:none;}
 
-.index-job{background:#475665 url(http://s.nashspace.com/r/i/071.jpg) center no-repeat;background-size:contain;height:1rem;position:relative;text-align:center;text-align:center;}
+.index-job{background:#475665 url(http://nashspace.b0.upaiyun.com/r/index/hl_02.jpg) center no-repeat;background-size:contain;height:1rem;position:relative;text-align:center;text-align:center;}
 .index-job h3{color:#eee;margin-top:.1rem;}
 .index-job a{font-size:.13rem;color:#fff;}
 
