@@ -121,7 +121,7 @@ footer p.copyRight{margin-top:.03rem;}
 .imgFocus a.prev{position:absolute;left:0;top:0;background-image:url(http://s.nashspace.com/r/i/prev.png);background-position:right center;}
 .imgFocus a.next{position:absolute;top:0;right:0;background-image:url(http://s.nashspace.com/r/i/next.png);background-position:left center;}
 iframe{margin:0 -.1rem;}
-.join-project{height:2.2rem;background-size:240%; background:#f4ebe1;}
+.join-project{height:6.5rem;background-size:240%; background:#f4ebe1;}
 .modal{width:100%;height:100%;background:rgba(0,0,0,.7);position:fixed;top:0;left:0;z-index:100;display:none;}
 .modal .service-card{width:2rem;height:3rem;position:absolute;top:50%;left:50%;margin:-1rem 0 0 -1rem;color:#fff;padding-top:.5rem;}
 .modal .service-card img{width:.6rem;height:.8rem;background:#f5ad60;float:left;margin-right:.1rem;}
@@ -161,3 +161,14 @@ iframe{margin:0 -.1rem;}
 .strong_num{font-size: .2rem;color: #f69002;}
 
 .project-contact{text-align: center;}
+
+.picFocus{width:100%;height:2rem;display:inline-block;*display:inline;*zoom:1;position:relative;overflow:hidden;margin:.1rem 0;}
+.picFocus ul{width:9999px;position:absolute;left:0;}
+.picFocus ul:after{content:'\0020';display:block;clear:both;height:0;}
+.picFocus ul li{width:3rem;float:left;overflow:hidden;}
+.picFocus img{}
+.picFocus a{position:absolute;width:.3rem;height:.3rem;top:45%;background-color:rgba(0,0,0,0);background-repeat:no-repeat;background:contain;}
+.picFocus a.prev{left:0;background-image:url(http://nashspace.b0.upaiyun.com/r/project/l.png);background-position:.03rem center;}
+/*.picFocus a.prev:hover{background-image: (http://nashspace.b0.upaiyun.com/r/project/d2.png);}*/
+.picFocus a.next{right:0;background-image:url(http://nashspace.b0.upaiyun.com/r/project/r.png);background-position:.03rem center;}
+/*.picFocus a.next:hover{background-image: url(http://nashspace.b0.upaiyun.com/r/project/d2.png);}*/

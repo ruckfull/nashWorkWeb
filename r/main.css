@@ -248,7 +248,7 @@ footer a.wx:hover img,footer a.wx:hover i{display:block;}
 .imgFocus a.prev{margin-left:-960px;background-image:url(http://s.nashspace.com/r/i/prev.png);background-position:right center;}
 .imgFocus a.next{margin-left:400px;background-image:url(http://s.nashspace.com/r/i/next.png);background-position:left center;}
 
-.join-project{background:#f4ebe1;height:870px;}
+.join-project{background:#f4ebe1;height:910px;}
 .join-project h3{background:#f4ebe1;}
 .join-project img{background:#f5ad62;}
 
@@ -326,3 +326,15 @@ footer a.wx:hover img,footer a.wx:hover i{display:block;}
 .contact {
     /*text-align: center;*/
 }
+.pro-img-box{width:1190px;height:402px;margin:10px auto;}
+img.pro-img{width:532px;height:402px;float:left;margin-right:30px;display:inline;}
+
+.picFocus{width:620px;height:402px;display:inline-block;*display:inline;*zoom:1;position:relative;overflow:hidden;}
+.picFocus ul{width:9999px;position:absolute;left:0;}
+.picFocus ul li{width:620px;float:left;overflow:hidden;text-align:center;vertical-align:middle;}
+.picFocus img{}
+.picFocus a{position:absolute;width:30px;height:60px;top:45%;background-repeat:no-repeat;background-color: #FFFFFF;}
+.picFocus a.prev{left:0;background-image:url(http://nashspace.b0.upaiyun.com/r/project/l.png);background-position:10px center;margin-left: 10px;}
+.picFocus a.next{right:0;background-image:url(http://nashspace.b0.upaiyun.com/r/project/r.png);background-position:-10px center;margin-right: 10px;}
+.picFocus a.prev:hover{background-image:url(http://nashspace.b0.upaiyun.com/r/project/d2.png); }
+.picFocus a.next:hover{background-image:url(http://nashspace.b0.upaiyun.com/r/project/d.png); }

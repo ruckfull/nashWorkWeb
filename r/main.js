@@ -63,6 +63,35 @@ $(function(){
 		});
 	}
 
+	if($('.picFocus').length > 0){
+		var picList = $('.picFocus ul'),
+			picWidth = $('.picFocus ul li').width(),
+			picNum = $('.picFocus ul li').length,
+			picLeft = 0,
+			picTotalWidth = picWidth * picNum + 1;
+		picList.width(picTotalWidth);
+		$('.picFocus').on('click','a.next',function(e){
+			e.preventDefault();
+			if(picLeft > -picTotalWidth+picWidth+1){
+				picLeft = picLeft - picWidth;
+			}else{
+				picLeft = 0;
+			}
+			picList.animate({'left':picLeft},300);
+
+		}).on('click','a.prev',function(e){
+			e.preventDefault();
+			if(picLeft > -picWidth){
+				picLeft = -picTotalWidth + picWidth;
+			}else{
+				picLeft = picLeft + picWidth;
+			}
+			picList.animate({'left':picLeft},300);
+		});
+	}
+
+
+
 	if($('body').width() < $('.contact').find('iframe').width()){
 		var url = $('.contact').find('iframe').attr('src');
 		var newUrl = url.split('700')[0] + $('body').width() + url.split('700')[1]
