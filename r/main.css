@@ -179,7 +179,7 @@ header .mainNav li.on a,header .mainNav li a:hover{background:rgba(0,0,0,.3);}
 }
 
 
-.index-social{height:600px;background:#CDA981 url(http://s.nashspace.com/r/i/dt_01.jpg) center no-repeat;}
+.index-social{height:600px;background:#CDA981 url(http://nashspace.b0.upaiyun.com/r/index/hl_01.jpg) center no-repeat;}
 .index-social h3{position:absolute;width:575px;height:100px;padding:25px 0;border:8px solid #E9E3DD;color:#E9E3DD;top:140px;left:50%;margin-left:-295px;font-size:52px;text-align:center;line-height:55px;}
 .index-social small{font-size:20px;display:block;}
 .index-social .left{position:absolute;width:480px;height:110px;bottom:70px;left:50%;margin-left:-480px;font-size:26px;color:#E9E3DD;line-height:40px;}
@@ -204,7 +204,7 @@ ul.join-map li.ij-6 i{top:315px;left:455px;}
 ul.join-map li.ij-7 i{top:180px;left:365px;z-index:9;}
 
 
-.index-job{height:550px;background:#475665 url(http://s.nashspace.com/r/i/071.jpg) center no-repeat;}
+.index-job{height:550px;background:#475665 url(http://nashspace.b0.upaiyun.com/r/index/hl_02.jpg) center no-repeat;}
 .index-job h3{position:absolute;font-size:92px;top:33%;left:50%;color:#fff;font-family: Arial;border-bottom:1px solid #fff;line-height:105px;margin-left:-288px;font-weight:600;}
 .index-job a{position:absolute;font-size:54px;color:#fff;top:57%;left:50%;margin-left:-81px;}
 
@@ -248,7 +248,7 @@ footer a.wx:hover img,footer a.wx:hover i{display:block;}
 .imgFocus a.prev{margin-left:-960px;background-image:url(http://s.nashspace.com/r/i/prev.png);background-position:right center;}
 .imgFocus a.next{margin-left:400px;background-image:url(http://s.nashspace.com/r/i/next.png);background-position:left center;}
 
-.join-project{background:#f4ebe1;height:870px;}
+.join-project{background:#f4ebe1;height:910px;}
 .join-project h3{background:#f4ebe1;}
 .join-project img{background:#f5ad62;}
 
@@ -326,3 +326,15 @@ footer a.wx:hover img,footer a.wx:hover i{display:block;}
 .contact {
     /*text-align: center;*/
 }
+.pro-img-box{width:1190px;height:402px;margin:10px auto;}
+img.pro-img{width:532px;height:402px;float:left;margin-right:30px;display:inline;}
+
+.picFocus{width:620px;height:402px;display:inline-block;*display:inline;*zoom:1;position:relative;overflow:hidden;}
+.picFocus ul{width:9999px;position:absolute;left:0;}
+.picFocus ul li{width:620px;float:left;overflow:hidden;text-align:center;vertical-align:middle;}
+.picFocus img{}
+.picFocus a{position:absolute;width:30px;height:60px;top:45%;background-repeat:no-repeat;background-color: #FFFFFF;}
+.picFocus a.prev{left:0;background-image:url(http://nashspace.b0.upaiyun.com/r/project/l.png);background-position:10px center;margin-left: 10px;}
+.picFocus a.next{right:0;background-image:url(http://nashspace.b0.upaiyun.com/r/project/r.png);background-position:-10px center;margin-right: 10px;}
+.picFocus a.prev:hover{background-image:url(http://nashspace.b0.upaiyun.com/r/project/d2.png); }
+.picFocus a.next:hover{background-image:url(http://nashspace.b0.upaiyun.com/r/project/d.png); }
