@@ -1,0 +1,90 @@
+/* header css*/
+.header{overflow:hidden; width:100%; height:810px; }
+.header .focus { margin-top:-160px; position:absolute;}
+.header .focus li,.header .header_nav .nav li{ float:left;}
+.header .focus li img{ width:100%; height:810px;}
+.header .header_nav{height:160px; margin:0 auto; color:#fff; width:1000px; position:relative; z-index:999;}
+.header .header_nav a{ color:#fff;}
+.header .header_nav h2{ line-height:150px; padding-top:50px; letter-spacing:30px; font-size:25px; float:left;}
+.header .header_nav h2 img{ margin-right:30px;}
+.header .header_nav .nav{ float:right; font-size:16px;}
+.header .header_nav .nav li{ margin:0px 15px; padding:40px 20px 0; line-height:50px;}
+.header .header_nav .nav li:hover{ background:#2e2c2b;}
+.header .header_nav .nav li.on{ background:#2e2c2b;}
+.header .nash {position:relative; z-index:999; color:#fff; width:100%; overflow:hidden; text-align:center; margin-top:100px;}
+.header .nash h1{ font-size:72px; line-height:80px;}
+.header .nash h2{ font-size:60px; line-height:120px; letter-spacing:25px;}
+.header .nash .nsSlogan{ border-top:1px solid #eee; border-bottom:1px solid #eee;font-size:24px; line-height:50px;letter-spacing:20px; display:inline-block; text-align:center; overflow:hidden; width:700px; margin:0 auto 50px;}
+.header .nash .goto{ display:block; color:#fff; background:#f3982d;font-size:16px; line-height:40px; width:230px; margin:30px auto;}
+.header .nash .phone{ color:#fff;font-size:36px; line-height:40px;}
+
+/* 工作空间 css*/
+
+.work{ font-size:48px; line-height:120px;  border-bottom:1px solid #989898; letter-spacing:20px; color:#868686; text-align:center; margin-top:50px; *position:relative !important;}
+.work .work_sl{ width:370px; text-align:center; border:1px solid #f3982d; font-size:18px; line-height:38px; color:#f3982d; background:#fff;margin:-20px auto; display:block; *position:absolute !important; *left:36% !important; *top:90px !important;}
+.jqkc{ color:#9e9e9e;font-size:18px; line-height:80px;letter-spacing:5px; text-align:center;}
+
+.ns_space ul{ width:322px; color:#4e4e4e; text-align:center;}
+.ns_space ul li img{ width:322px; height:210px;}
+.ns_space ul .ico{ font-size:108px; line-height:60px;}
+.ns_space ul .ico:hover{ color:#f6ab47;}
+.ns_space ul li.fs20{ font-size:20px; line-height:36px; border-bottom:1px solid #c8c8c8;margin:0 25px;}
+.ns_space ul li.fs20 .fs36{ font-size:36px; line-height:54px;}
+.ns_space ul li.fs14{ color:#6a6a6a;font-size:14px; line-height:30px;margin:5px 25px 0;}
+
+
+/* 共享服务 css*/
+.services{ background:url(../img/a_02.jpg) no-repeat; height:750px; margin-top:50px;}
+.nsServices{ color:#868686; font-size:48px; line-height:80px;letter-spacing:20px;text-align:center; padding-top:90px;}
+.nsServices_sl{width:370px; text-align:center; border:1px solid #f3982d; font-size:18px; line-height:38px; color:#f3982d; margin:0 auto; }
+
+.ns_services li{ width:230px; height:320px; background:url(../img/services.png) no-repeat; margin-right:10px; position:relative;}
+.ns_services li.end{ margin-right:none;}
+
+.ns_services li .s_ico{background:url(../img/services.png) no-repeat; margin:100px auto 50px; width:90px; height:90px; display:block;}
+.ns_services li .s_ico.i1{ background-position:0px -759px;}
+.ns_services li .s_ico.i2{ background-position:-140px -759px;}
+.ns_services li .s_ico.i3{ background-position:0px -911px;}
+.ns_services li .s_ico.i4{ background-position:-140px -911px;}
+.ns_services li h4{font-size:26px; line-height:42px; color:#aaaaaa; text-align:center;}
+.ns_services li .ns_hover { position:absolute;line-height:48px; left:0; top:0; width:100%; text-align:center; display:none; background:url(../img/services.png) no-repeat scroll 0 -382px; height:240px; padding-top:80px;}
+.ns_services li .ns_hover p{ font-size:24px; color:#fff;}
+.ns_services li:hover .ns_hover { display:block;}
+
+/* 办公社交 css*/
+.nsOffice{background:url(../img/a_01.jpg) no-repeat; height:560px;  padding-top:90px; }
+.office{ background:url(../img/offic.png) no-repeat scroll center center;}
+.nsOffice_h2{ color:#3c3c3c; font-size:48px; line-height:80px;letter-spacing:20px;text-align:center; }
+.nsOffice_sl{width:370px; text-align:center; border:1px solid #fff; font-size:18px; line-height:38px;color:#fff; margin:0 auto; }
+.nsOffice_jqkc{ color:#fff; font-size:18px; line-height:80px; letter-spacing:5px; text-align:center;}
+.ns_office{ margin-top:150px;}
+.ns_office .w49{ width:49%; color:#fff;}
+.ns_office .w49 .fs60{ font-size:60px; line-height:120px; padding:0 60px; }
+.ns_office .w49 .fs24{ font-size:24px; color:#3c3c3c; margin-top:35px;}
+.ns_office .w49 .fs24.txtr{ text-align:right;}
+.ns_office .w49 .fs24 .fs18{ font-size:18px; color:#fff;}
+.ns_office .w2{ width:1%; border-left:2px solid #fff; margin:0 auto; height:120px;}
+
+/* 即刻开工·全城无忧 css*/
+.nsStart{ background:#ffae44; height:800px; position:relative;}
+.nsStart_h2{ color:#3c3c3c;font-size:48px; line-height:80px;letter-spacing:20px;text-align:center; padding-top:40px; }
+.cfff{color:#fff; }
+.nsStart_sl{width:370px; text-align:center; border:1px solid #fff;font-size:18px; line-height:38px; color:#fff; margin:0 auto; }
+.nsStart_jqkc{ color:#fff; font-size:18px; line-height:80px; letter-spacing:5px; text-align:center;}
+.nsStart .ns_nsStart{ width:320px; position:absolute; background:url(../img/06.jpg) no-repeat scroll left top; top:300px; left:50%; height:320px; margin-left:-560px; padding:100px 0 0 800px;}
+.nsStart .ns_nsStart li{ width:120px; float:left; font-size:20px; line-height:60px; background:url(../img/line.jpg) repeat-y; padding-left:20px}
+.nsStart .ns_nsStart li i{ background:url(../img/28.png) no-repeat; color: #fff; font-size:20px; line-height:24px; height:95px; position: absolute; z-index: 10; width:42px; padding:10px 15px; font-style: normal;}
+.nsStart .ns_nsStart li.st_1 i{ top:155px; left:265px;}
+.nsStart .ns_nsStart li.st_2 i{ top:145px; left:438px;}
+.nsStart .ns_nsStart li.st_3 i{ top: 85px; left:222px;}
+.nsStart .ns_nsStart li.st_4 i{ top:165px; left:140px;}
+.nsStart .ns_nsStart li.st_5 i{ top:230px; left:405px;}
+.nsStart .ns_nsStart li.st_6 i{ top:315px; left:455px;}
+.nsStart .ns_nsStart li.st_7 i{ top:185px; left:370px; z-index:9;}
+
+.nsStart .ns_nsStart li:hover{ background:url(../img/ico.png) no-repeat scroll 0 0;}
+.nsStart .ns_nsStart li:hover i{ background-position:-100px 0; z-index:11;}
+/* NASH.WORK css*/
+.nashwork{ background:url(../img/a_03.jpg) no-repeat; height:650px;}
+.nashwork_h2{ color:#fff;font-size:90px; line-height:87px; border-bottom:1px solid #fff; padding-top:203px; width:560px; margin:0 auto; text-align:center;} 
+.nashwork_sl{ font-size:60px; line-height:87px; color:#fff;width:560px; margin:0 auto; text-align:center;}
