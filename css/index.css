@@ -26,8 +26,18 @@
 
 .ns_space ul{ width:322px; color:#4e4e4e; text-align:center;}
 .ns_space ul li img{ width:322px; height:210px;}
-.ns_space ul .ico{ font-size:108px; line-height:60px;}
-.ns_space ul .ico:hover{ color:#f6ab47;}
+/*.ns_space ul .ico{ font-size:108px; line-height:60px;}*/
+.ns_space ul .ico{background: #757575 none repeat scroll 0 0;
+    border-radius: 80%;
+    font-size: 108px;
+    height: 10px;
+    line-height: 60px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    margin-top: 30px;
+    text-align: center;
+    width: 10px;}
+.ns_space ul .ico:hover{ background:#f6ab47;}
 .ns_space ul li.fs20{ font-size:20px; line-height:36px; border-bottom:1px solid #c8c8c8;margin:0 25px;}
 .ns_space ul li.fs20 .fs36{ font-size:36px; line-height:54px;}
 .ns_space ul li.fs14{ color:#6a6a6a;font-size:14px; line-height:30px;margin:5px 25px 0;}
