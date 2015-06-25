@@ -1,4 +1,5 @@
 //项目对象
+/*业务服务JS*/
 var service = [
 		{ "project":"德胜凯旋项目" ,"img":"http://s.nashspace.com/r/i/rw.jpg" , "office":"投资经理" , "name":"陈乐佛" , "tel":"13522934165" },
 		{ "project":"金澳国际项目" ,"img":"http://s.nashspace.com/r/i/rw.jpg" , "office":"投资经理" , "name":"沈艳蕊" , "tel":"15201587217" },
@@ -30,7 +31,7 @@ $(function(){
 		e.preventDefault();
 		$(this).hide();
 	});
-
+/*项目背景大图轮播*/
 	if($('.imgFocus').length > 0){
 		var imgList = $('.imgFocus ul'),
 			WIDTH = $('.imgFocus img').width(),
@@ -101,6 +102,9 @@ $(function(){
 });
 
 
+
+
+/*地图传值*/
 function openmap(projectname){
 	if(projectname==""){
 		alert("项目名不能为空");
@@ -112,3 +116,63 @@ function openmap(projectname){
 	 $('.mapfont a').attr('target','_blank');
 
 }
+/*项目周边环境轮播*/
+function lunbo()
+{
+	document.getElementById("around").style.display="block";
+	document.getElementById("bannerbox").style.display="block";
+    var sWidth = $("#luobo").width();
+    var len = $("#luobo ul li").length;
+    var index = 0;
+    var picTimer;
+    var btn = "<div class='btnBg'></div><div class='btn'>";
+    for (var i = 0; i < len; i++) {
+        btn += "<span></span>";
+    }
+    btn += "</div><div class='preNext pre'></div><div class='preNext next'></div>";
+    $("#luobo").append(btn);
+    $("#luobo .btnBg").css("opacity", 0);
+    $("#luobo .btn span").css("opacity", 0.4).mouseenter(function () {
+        index = $("#luobo .btn span").index(this);
+        showPics(index);
+    }).eq(0).trigger("mouseenter");
+    $("#luobo .preNext").css("opacity", 0.0).hover(function () {
+        $(this).stop(true, false).animate({ "opacity": "0.5" }, 300);
+    }, function () {
+        $(this).stop(true, false).animate({ "opacity": "0" }, 300);
+    });
+    $("#luobo .pre").click(function () {
+        index -= 1;
+        if (index == -1) { index = len - 1; }
+        showPics(index);
+		
+    });
+    $("#luobo .next").click(function () {
+        index += 1;
+        if (index == len) { index = 0; }
+        showPics(index);
+    });
+    $("#luobo ul").css("width", sWidth * (len));
+    $("#luobo").hover(function () {
+        clearInterval(picTimer);
+    }, function () {
+        picTimer = setInterval(function () {
+            showPics(index);
+            index++;
+            if (index == len) { index = 0; }
+        }, 2800);
+    }).trigger("mouseleave");
+	
+    function showPics(index) {
+        var nowLeft = -index * sWidth;
+        $("#luobo ul").stop(true, false).animate({ "left": nowLeft }, 300);
+        $("#luobo .btn span").stop(true, false).animate({ "opacity": "0.4" }, 300).eq(index).stop(true, false).animate({ "opacity": "1" }, 300);
+    }
+
+}
+
+$('#around').on('click',function(e){
+		e.preventDefault();
+		$(this).hide();
+		$('#bannerbox').hide();
+	});

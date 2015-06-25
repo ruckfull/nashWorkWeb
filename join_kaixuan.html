@@ -67,7 +67,7 @@
       </div>
       <div class="mhc"></div>
       <div class="pop_up" id="demo2">
-        <div class="pop_up_xx"><img src="img/chacha3.png" width="40" height="40"  alt=""/></div>
+        <!--<div class="pop_up_xx"><img src="img/chacha3.png" width="40" height="40"  alt=""/></div>-->
         <div class="pop_up2" id="ban_pic2">
           <div class="prev1" id="prev2"><img src="img/index_tab_l.png" width="28" height="51"  alt=""/></div>
           <div class="next1" id="next2"><img src="img/index_tab_r.png" width="28" height="51"  alt=""/></div>
@@ -102,7 +102,8 @@
 </div>
 <!--招募入驻企业 end--> 
 <!--项目介绍 start-->
-<div class="content">
+<div style="position:relative; width:100%;">
+  <div class="content">
   <h2 class="pro_introduction">项目介绍</h2>
   <div class="clearfix pro_map">
     <div class="pro_w510 fl">
@@ -116,15 +117,44 @@
     <div class="fl pro_w420"><iframe width="420" height="410" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://restapi.amap.com/v3/staticmap?location=116.38005,39.95613&zoom=15&size=420*410&labels=%E5%BE%B7%E8%83%9C%E5%87%AF%E6%97%8B%E5%A4%A7%E5%8E%A6,2,0,16,0xFFFFFF,0x5288d8:116.38095,39.95573&key=ee95e52bf08006f63fd29bcfbcf21df0"></iframe><p class="mapfont"><a href="http://www.amap.com/#!poi!!q=永利大厦&_t=1435038963146&qcity=110000&ac=false">-> 查看地图</a></p></div>
   </div>
   <ul class="clearfix pic_ul">
-    <li class="fl"><img src="img/desheng/370.jpg" width="370" height="330"></li>
-    <li class="fl"><img src="img/desheng/320-190.jpg" width="320" height="190"></li>
-    <li class="fl"><img src="img/desheng/250-190.jpg" width="250" height="190"></li>
-    <li class="fl"><img src="img/desheng/200-130.jpg" width="200" height="130"></li>
-    <li class="fl"><img src="img/desheng/370-330.jpg" width="370" height="330"></li>
-    <li class="fl mt190"><img src="img/desheng/260-190.jpg" width="260" height="190"></li>
-    <li class="fl ml265"><img src="img/desheng/310.jpg" width="310" height="190"></li>
+    <li class="fl"><img src="img/desheng/370.jpg" onClick="lunbo()" width="370" height="330"></li>
+    <li class="fl"><img src="img/desheng/320-190.jpg" onClick="lunbo()" width="320" height="190"></li>
+    <li class="fl"><img src="img/desheng/250-190.jpg" onClick="lunbo()" width="250" height="190"></li>
+    <li class="fl"><img src="img/desheng/200-130.jpg" onClick="lunbo()" width="200" height="130"></li>
+    <li class="fl"><img src="img/desheng/370-330.jpg" onClick="lunbo()" width="370" height="330"></li>
+    <li class="fl mt190"><img src="img/desheng/260-190.jpg" onClick="lunbo()" width="260" height="190"></li>
+    <li class="fl ml265"><img src="img/desheng/310.jpg" onClick="lunbo()" width="310" height="190"></li>
   </ul>
-  <style></style>
+    </div>
+  <!---周边开始--->
+<div id="around"></div>
+<div id="bannerbox">
+<div id="luobo">
+	<ul>
+    	<li>
+            	<img src="img/desheng/around.jpg"  width="660" height="530"/>
+
+        </li>
+        <li>
+            	<img src="img/desheng/around1.jpg"  width="660" height="530" />
+        </li>
+        <li>
+            	<img src="img/desheng/around2.jpg" width="660" height="530" />
+        </li>
+        <li>
+            	<img src="img/desheng/around3.jpg" width="660" height="530" />
+        </li>
+        <li>
+            	<img src="img/desheng/around4.jpg"  width="660" height="530"/>
+        </li>
+         <li>
+            	<img src="img/desheng/around5.jpg"  width="660" height="530"/>
+        </li>
+       
+    </ul>
+    </div>
+</div>
+ <!---周边开始--->
 </div>
 <!--项目介绍 end--> 
 <!--入驻企业感言 start-->
@@ -348,7 +378,7 @@ $('#demo1').banqh({
 	next:"#next1",//大图右箭头
 	pop_div:"#demo2",//弹出框框架
 	pop_pic:"#ban_pic2",//弹出框图片框架
-	pop_xx:".pop_up_xx",//关闭弹出框按钮
+	/*pop_xx:".pop_up_xx",//关闭弹出框按钮*/
 	mhc:".mhc",//朦灰层
 	autoplay:true,//是否自动播放
 	interTime:5000,//图片自动切换间隔

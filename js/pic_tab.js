@@ -178,3 +178,10 @@ if(can.pop_up==true){
 		};					
 				
 }
+
+
+$('.mhc').on('click',function(e){
+		e.preventDefault();
+		$(this).hide();
+		$('.pop_up').hide();
+	});
