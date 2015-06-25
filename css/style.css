@@ -46,10 +46,12 @@
 	line-height: 50px;
 }
 .header .header_nav .nav li:hover {
-	background: #2e2c2b;
+	background:rgba(0, 0, 0, 0.35) none repeat scroll 0 0 !important;/*实现FF背景透明，文字不透明*/
+filter:Alpha(opacity=35); background:#000;/*实现IE背景透明*/
 }
 .header .header_nav .nav li.on {
-	background: #2e2c2b;
+	background:rgba(0, 0, 0, 0.35) none repeat scroll 0 0 !important;/*实现FF背景透明，文字不透明*/
+filter:Alpha(opacity=35); background:#000;/*实现IE背景透明*/
 }
 .content {
 	margin: 0 auto;
@@ -378,8 +380,8 @@ div.introduction h3 {
 	top: 50px;
 	left: 50%;
 	height: 320px;
-	margin-left: -560px;
-	padding: 100px 0 0 800px;
+	margin-left: -510px;
+	padding: 100px 0 0 680px;
 }
 .ns_nsStart li {
 	width: 120px;
@@ -401,38 +403,31 @@ div.introduction h3 {
 	padding: 10px 15px;
 }
 .ns_nsStart li.st_1 i {
-	top: 155px;
-	left: 265px;
+	top:135px; left:265px;
 	font-style:normal;
 }
 .ns_nsStart li.st_2 i {
-	top: 145px;
-	left: 438px;
+	top:125px; left:400px;
 	font-style:normal;
 }
 .ns_nsStart li.st_3 i {
-	top: 85px;
-	left: 222px;
+	top: 65px; left:222px;
 	font-style:normal;
 }
 .ns_nsStart li.st_4 i {
-	top: 165px;
-	left: 140px;
+	top:150px; left:140px;
 	font-style:normal;
 }
 .ns_nsStart li.st_5 i {
-	top: 230px;
-	left: 405px;
+	top:210px; left:405px;
 	font-style:normal;
 }
 .ns_nsStart li.st_6 i {
-	top: 315px;
-	left: 455px;
+	top:285px; left:455px;
 	font-style:normal;
 }
 .ns_nsStart li.st_7 i {
-	top: 185px;
-	left: 370px;
+	top:165px; left:370px;
 	z-index: 9;
 	font-style:normal;
 }
@@ -591,10 +586,12 @@ div.introduction h3 {
 	line-height: 50px;
 }
 .projectheader .header_nav .nav li:hover {
-	background: #2e2c2b;
+	background:rgba(0, 0, 0, 0.35) none repeat scroll 0 0 !important;/*实现FF背景透明，文字不透明*/
+filter:Alpha(opacity=35); background:#000;/*实现IE背景透明*/
 }
 .projectheader .header_nav .nav li.on {
-	background: #2e2c2b;
+	background:rgba(0, 0, 0, 0.35) none repeat scroll 0 0 !important;/*实现FF背景透明，文字不透明*/
+filter:Alpha(opacity=35); background:#000;/*实现IE背景透明*/
 }
 .xmtitle {
 	font-size:48px;
@@ -867,17 +864,17 @@ img.pro-img{width:410px;height:400px;float:left;display:inline;}
 .layer{ position:absolute;}
 .index-join,.join-join{height:580px;background:#ffae44;color:#363636; position:relative}
 .index-join h3{font-size:60px;position:absolute;top:100px;left:49%;z-index: 1;}
-ul.join-map{width:320px;height:320px;padding:100px 0 0 800px;position:absolute;top:90px;left:50%;margin-left:-560px;background:url(../img/06.jpg) left top no-repeat;}
+ul.join-map{width:320px;height:320px;padding:100px 0 0 680px;position:absolute;top:90px;left:50%;margin-left:-510px;background:url(../img/06.jpg) left top no-repeat;}
 .service-img-join ul.join-map {top: 70px;}
 ul.join-map li{width:120px; float:left;font-size:20px; line-height:60px; background:url(../img/line.jpg) repeat-y; padding-left:20px}
 ul.join-map li:hover{background:url(../img/ico.png) no-repeat scroll 0 0;}
 ul.join-map li i{position:absolute;width:54px;height:75px;background:url(../img/28.png) no-repeat;color:#fff;font-size:20px;padding:10px 5px 10px 15px;z-index:10; font: 20px/24px Microsoft YaHei; font-size:20px; line-height:24px;}
 ul.join-map li a:hover{}
 ul.join-map li a:hover i{background-position:-100px 0;z-index:11;}
-ul.join-map li.ij-1 i{top:155px;left:265px;}
-ul.join-map li.ij-2 i{top:143px;left:433px;}
-ul.join-map li.ij-3 i{top:88px;left:222px;}
-ul.join-map li.ij-4 i{top:170px;left:133px;}
-ul.join-map li.ij-5 i{top:230px;left:400px;}
-ul.join-map li.ij-6 i{top:315px;left:455px;}
-ul.join-map li.ij-7 i{top:180px;left:365px;z-index:9;}
+ul.join-map li.ij-1 i{top:135px;left:265px;}
+ul.join-map li.ij-2 i{top:123px;left:433px;}
+ul.join-map li.ij-3 i{top:68px;left:222px;}
+ul.join-map li.ij-4 i{top:150px;left:133px;}
+ul.join-map li.ij-5 i{top:210px;left:400px;}
+ul.join-map li.ij-6 i{top:285px;left:450px;}
+ul.join-map li.ij-7 i{top:165px;left:370px;z-index:9;}
