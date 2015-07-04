@@ -1,0 +1,363 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>纳什空间 | 永利国际</title>
+<meta name="viewport" content="width=640,user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="css/m.css" />
+<script type="text/javascript" src="js/common.js"></script>
+<script src="js/lunbo.js"></script>
+</head>
+<body>
+<script>
+window.onload = function(){
+	//id('page').style.height=content().h+"px";	
+	fnLunbo('banner');
+	//fnLunbo('around');
+	fnLunbo('apartment');
+	//fnBus();
+};
+$(function(){
+	var $span  = $('.logo span');
+	var $page  = $('.welcom');
+	var $nav = $('#nav'); 
+	var $viewW = $(window).width();
+	var $navW = $('#nav').width();
+	var offBut = true;
+	//$nav.css('left', $viewW);
+    
+	$span.on('touchend',function(){
+		if(offBut){
+			//$nav.css('left', $viewW-$navW);
+			$nav.css('opacity', '1');
+			$nav.css('zIndex', '10');
+			$page.css('left', -$navW);
+		}else{
+			//$nav.css('left', $viewW);
+			$nav.css('opacity', '0');
+			$page.css('left', '0px');
+		}
+		offBut = !offBut;
+	});
+});
+</script>
+<div class="page">
+  <div class="header"> 
+    <!-- logo nav start-->
+    <div id="nav">
+    <div class="nav_top"></div>
+    <div class="nav_secrch">
+     <!-- <form action="#" id="" class="">
+        <input type="search" name="sid" value="	">
+        <input type="botton" name="sid" value="">
+      </form>-->
+    </div>
+    <ul>
+      <li><a href="index.html">首页</a></li>
+      <li><a href="about.html">关于纳什</a></li>
+      <li><a href="join.html">进驻纳什</a></li>
+      <li><a href="service.html">业主服务</a></li>
+      <li><a href="job.html">加入纳什</a></li>
+    </ul>
+  </div>
+    <div class="welcom">
+      <div class="logo"><img src="img/logo.jpg" width="100" height="100"  alt=""/>
+        <h2>纳什空间</h2>
+        <span><img src="img/menu.png" width="60" height="60"  alt=""/></span> </div>
+    </div>
+    <!-- logo nav end--> 
+  </div>
+  <!-- 轮播图 start-->
+  <div id="banner">
+    <ul id="banner_pic">
+      <li><img src="img/project/yongli/banner1.jpg" /></li>
+      <li><img src="img/project/yongli/banner2.jpg" /></li>
+      <li><img src="img/project/yongli/banner3.jpg" /></li>
+    </ul>
+    <div class="picMask">
+      <nav> <a href="javascript:;" class="active"></a> <a href="javascript:;"></a> <a href="javascript:;"></a></nav>
+    </div>
+  </div>
+  <!-- 轮播图 end--> 
+  <!--center start-->
+  <div class="content"> 
+    <!--简介 start-->
+  <h2 class="xmtitle">永利国际项目办公空间招募</h2>
+  <p class="xm_c">三里屯超炫办公空间，有才的你敢不敢来？！</p>
+  </div>
+  <!--简介 end--> 
+  <!--项目展示 start-->
+  <div class="pro_display clearfix">
+    <div class="pro-img-box"> <img src="img/project/yongli/yl03.jpg"></div>
+   <div id="apartment">
+     <ul id="apart_pic">
+            <li><img src="img/project/yongli/yl01.jpg" alt=""/></li>
+            <li><img src="img/project/yongli/yl02.jpg" alt=""/></li>
+           
+            
+          </ul>
+           <div class="picMask">
+      <nav> <a href="javascript:;" class="active"></a> <a href="javascript:;"></a></nav>
+    </div>
+    </div>
+  </div>
+
+  <!--项目展示 end--> 
+  <!--招募入驻企业 start-->
+ <div class="rct_into">
+    <div class="content clearfix">
+      <div class="fl pro_w770">
+      <h3>招募入驻企业</h3>
+      <p>1、寻找60-200平米办公空间的企业。</p>
+      <p>2、传媒、艺术时尚、投资、美容、咨询、互联网、中外机构驻北京代表处等。</p>
+      <p>3、也欢迎对该</p>
+      </div>
+      <div class="pro_w140 clearfix">
+      <p><img src="img/project/yongli/jgszhuyaxuan.jpg"></p>
+      <div class="jgs">
+      <p class="fs16">空间架构师</p>
+      <p>朱雅渲 18610695177</p>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!--招募入驻企业 end--> 
+  <!--项目介绍 start-->
+<div style="position:relative; width:100%;">
+    <div class="content">
+      <h2 class="pro_introduction">项目介绍</h2>
+      <div class="clearfix pro_map">
+        <div class="pro_w420">
+          <iframe width="640" height="460" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://restapi.amap.com/v3/staticmap?location=116.444829,39.934746&zoom=17&size=640*460&labels=%E6%B0%B8%E5%88%A9%E5%9B%BD%E9%99%85,2,0,16,0xFFFFFF,0x5288d8:116.444729,39.934646&key=ee95e52bf08006f63fd29bcfbcf21df0"></iframe>
+       <!-- <p class="mapfont"><a href="http://www.amap.com/#!poi!!q=永利大厦&_t=1435038963146&qcity=110000&ac=false">-> 查看地图</a></p>-->
+        </div>
+        <div class="pro_w510">
+          <p>1、位置：</p>
+        <p>朝阳区工体北路与春秀路交汇处（工人体育场北门）。明白吗？没错，就是大明星经常来开演唱会的那个工人体育场，咱们高层的办公空间拿望远镜可以免费看，放心，演唱会都是晚上，不影响你办公。</p>
+        <p>2、地铁：</p>
+        <p>往西800米可直达2号线，顺便可以去保利剧院看看最新的演出。往东1500米直达10号线，回家的路上顺便可以去三里屯太古里逛逛。</p>
+        <p>3、配套</p>
+        <p>北京最繁华的夜生活仅在处，最潮的达人，还有楼下就是黄晓明，任泉，李冰冰开的热辣壹号火锅店，郭涛的理发店，明星经常在电梯里面遇到。</p>
+        </div>
+      </div>
+     <div class="pic_ul" style="margin-left:10px;">
+       <a href="javascript:;" _data="0"><img src="img/project/yongli/aroundja.jpg" ></a>
+      </div>
+    </div>
+  </div>
+  <!--项目介绍 end--> 
+  <!--入驻企业感言 start-->
+  <div class="ganyan">
+    <div class="content">
+      <h2>入驻企业负责人感言：</h2>
+          <ul class="clearfix gy_ul">
+            <li class="fl gy_w160"><img src="img/xm1.jpg"></li>
+            <li class="fl gy_w765">
+              <p class="fs20">朱旭</p>
+              <p class="fs20">悟空租车 首席市场官</p>
+              <p><span class="yhleft">&nbsp;</span>我们入驻银座社区是个正确的选择，因为还有纳什空间办公社交平台，让我们迅速认识了很多楼内的客户和很多志同道合的小伙伴们。<span class="yhrigth">&nbsp;</span></p>
+            </li>
+          </ul>
+          <ul class="clearfix gy_ul">
+            <li class="fl gy_w765">
+              <p class="fs20">孙阳</p>
+              <p class="fs20">北京1580互联网 联合创始人</p>
+              <p><span class="yhleft">&nbsp;</span>纳什空间帮助我们快速的找到了适合我们的办公空间，对于我们公司来说很适合，租金相对合理，无论接待客户，还是员工上下班都很方便。<span class="yhrigth">&nbsp;</span></p>
+            </li>
+            <li class="fl gy_w160"><img src="img/xm2.jpg"></li>
+          </ul>
+       
+          <ul class="clearfix gy_ul">
+            <li class="fl gy_w160"><img src="img/xm3.jpg"></li>
+            <li class="fl gy_w765">
+              <p class="fs20">张海晗</p>
+              <p class="fs20">童伴教育 联合创始人</p>
+              <p><span class="yhleft">&nbsp;</span>纳什空间的共享办公服务提高了我们的办公效率，让我们专注于我们的产品。<span class="yhrigth">&nbsp;</span></p>
+            </li>
+        
+      </ul>
+    </div>
+    </div>
+  </div>
+  <!--入驻企业感言 end--> 
+  <!--入驻企业 start-->
+  <div class="clearfix  ns_rzqy">
+    <h1 class="rzqy">入驻企业:</h1>
+    <h2 class="h2title">获得投资的创业公司：</h2>
+    <div class="clearfix">
+      <div class="fl inCompany">
+        <p class="incom_pic"><img src="img/xx/rz_logo01.jpg"></p>
+        <div class="float_intro">
+          <h3>脚印兄弟(北京)信息科技有限责任公司</h3>
+          <p>悟空租车是一家以移动互联网技术为依托，专注于汽车共享租赁的出行服务平台。</p>
+        </div>
+      </div>
+      <div class="fl inCompany">
+        <p class="incom_pic"><img src="img/xx/rz_logo02.jpg"></p>
+        <div class="float_intro">
+          <h3>北京1580互联网科技有限公司</h3>
+          <p>是一家致力于“互联网+”商业模式研究设计，为驾培行业主管部门、驾校、教练、学员提供一站式整体解决方案。</p>
+        </div>
+      </div>
+      <div class="fl inCompany">
+        <p class="incom_pic"><img src="img/xx/rz_logo03.jpg"></p>
+        <div class="float_intro">
+          <h3>北京童伴教育科技有限公司</h3>
+          <p>童伴教育，专注于亲子家庭的“智能穿戴+云平台”教育移动互联网服务。</p>
+        </div>
+      </div>
+      <div class="fl inCompany">
+        <p class="incom_pic"><img src="img/xx/rz_logo04.jpg"></p>
+        <div class="float_intro">
+          <h3>北京悠泊科技有限公司</h3>
+          <p>悠泊科技的主要产品是悠泊代客泊车APP，及悠泊微信服务号，通过统一的司机团队和代泊服务，解决开车人士的停车难问题。</p>
+        </div>
+      </div>
+    </div>
+    <h2 class="h2title">知名企业分公司：</h2>
+    <div class="clearfix">
+      <div class="fl inCompany">
+        <p class="incom_pic"><img src="img/xx/rz_logo07.jpg"></p>
+        <div class="float_intro">
+          <h3>国核信息科技有限公司北京分公司</h3>
+          <p>国核信息科技有限公司（简称：国核信息）是国家核电技术公司所属山东电力工程咨询院有限公司的全资子公司。</p>
+        </div>
+      </div>
+      <div class="fl inCompany">
+        <p class="incom_pic"><img src="img/xx/rz_logo08.jpg"></p>
+        <div class="float_intro">
+          <h3>中交第二公路勘察设计研究院有限公司</h3>
+          <p>（原交通部第二公路勘察设计院）始建于1964年，是我国公路勘察设计行业综合实力最强的企业之一。</p>
+        </div>
+      </div>
+      <div class="fl inCompany">
+        <p class="incom_pic"><img src="img/xx/rz_logo09.jpg"></p>
+        <div class="float_intro">
+          <h3>中交南方投资发展有限公司</h3>
+          <p>成立于2012年11月28日，注册资本11亿元人民币，是中国交通建设股份有限公司独资设立的重要投资平台。</p>
+        </div>
+      </div>
+      <div class="fl inCompany">
+        <p class="incom_pic"><img src="img/xx/rz_logo10.jpg"></p>
+        <div class="float_intro">
+          <h3>中国国际包装租赁有限公司</h3>
+          <p>成立于1984年，专注于经营设备租赁及转让31年，是国内领先的包装服务公司。</p>
+        </div>
+      </div>
+      <!-- <div class="fl inCompany">
+      <p class="incom_pic"><img src="img/xx/rz_logo11.jpg"></p>
+      <h3>大通期货经纪有限公司北京营业部</h3>
+      <p>大通期货北京营业部于2004年经中国证监会批准成立，地处北京市西城区核心地带，交通便利，环境优雅。</p>
+    </div>--> 
+    </div>
+    <h2 class="h2title">外资驻北京办事处：</h2>
+    <div class="clearfix">
+      <div class="fl inCompany">
+        <p class="incom_pic"><img src="img/xx/rz_logo05.jpg"></p>
+        <div class="float_intro">
+          <h3>北京彼博商务咨询有限公司</h3>
+          <p>英国PFB咨询（中国）有限公司是一家致力于发展中英贸易伙伴关系，为英国及中国的公司及政府提供商务咨询及培训服务的公司。</p>
+        </div>
+      </div>
+      <div class="fl inCompany">
+        <p class="incom_pic"><img src="img/xx/rz_logo06.jpg"></p>
+        <div class="float_intro">
+          <h3>乌克兰普理瓦特商业银行</h3>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <h2 class="h2title">新兴创业企业：</h2>
+    <div class="clearfix">
+      <div class="fl inCompany">
+        <p class="incom_pic"><img src="img/xx/rz_logoxx2.jpg"></p>
+        <div class="float_intro">
+          <h3>GEOHEY</h3>
+          <p></p>
+        </div>
+      </div>
+      <div class="fl inCompany">
+        <p class="incom_pic"><img src="img/xx/rz_logoxx4.jpg"></p>
+        <div class="float_intro">
+          <h3>Natural-Wind</h3>
+          <p></p>
+        </div>
+      </div>
+      <div class="fl inCompany">
+        <p class="incom_pic"><img src="img/xx/rz_logoxx10.jpg"></p>
+        <div class="float_intro">
+          <h3>北京森创世界广告公司</h3>
+          <p></p>
+        </div>
+      </div>
+      <div class="fl inCompany">
+        <p class="incom_pic"><img src="img/xx/rz_logoxx12.jpg"></p>
+        <div class="float_intro">
+          <h3>北京图看科技有限公司</h3>
+          <p></p>
+        </div>
+      </div>
+      <div class="fl inCompany">
+        <p class="incom_pic"><img src="img/xx/rz_logoxx23.jpg"></p>
+        <div class="float_intro">
+          <h3>曼氏音乐</h3>
+          <p></p>
+        </div>
+      </div>
+      <div class="fl inCompany">
+        <p class="incom_pic"><img src="img/xx/rz_logoxx26.jpg"></p>
+        <div class="float_intro">
+          <h3>尚果设计</h3>
+          <p></p>
+        </div>
+      </div>
+      <div class="fl inCompany">
+        <p class="incom_pic"><img src="img/xx/rz_logoxx33.jpg"></p>
+        <div class="float_intro">
+          <h3>雪炭众筹</h3>
+          <p></p>
+        </div>
+      </div>
+      <div class="fl inCompany">
+        <p class="incom_pic"><img src="img/xx/rz_logoxx34.jpg"></p>
+        <div class="float_intro">
+          <h3>一起吃饭</h3>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-low">
+    <footer> <a href="index.html" class="logo-foot"><img src="img/08.jpg" alt="NASH.work"></a><br>
+      <a href="contact.html" class="link">联系我们</a><span>|</span><a href="link.html" class="link">友情链接</a>
+      <p class="copyRight">2015 纳什空间 版权所有 nash.work</p>
+      <a href="javascript:void(0)" class="wx"><img src="img/10.gif" alt=""><i></i></a></footer>
+  </div>
+</div>
+<script src="js/statistics.js"></script>
+
+<!--<script type="text/javascript">
+
+$(function(){
+	$('.pic_ul a').on('click',function(e){
+		e.preventDefault();
+		var id = this.getAttribute('_data');
+		alert(id);
+		if(id){
+			$('#around').show();
+		}
+	});
+	$('#around').on('click',function(e){
+		e.preventDefault();
+		$(this).hide();
+	});
+});
+</script>-->
+<!--<script>
+$(document).ready(function(e) {
+   openmap("永利大厦");
+});
+
+</script>-->
+</body>
+</html>

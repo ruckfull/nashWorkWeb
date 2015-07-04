@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>纳什空间 | 首页</title>
+<meta name="viewport" content="width=640, user-scalable=0" />
+<link href="css/index.css" rel="stylesheet" />
+<script type="text/javascript" src="js/common.js"></script>
+<script src="js/index.js"></script>
+
+
+</head>
+<body>
+<script>
+window.onload = function(){
+	//id('page').style.height=content().h+"px";	
+	fnLunbo('tabPic');
+	fnBus();
+};
+$(function(){
+	var $span  = $('.logo span');
+	var $page  = $('.welcom');
+	var $nav = $('#nav'); 
+	var $viewW = $(window).width();
+	var $navW = $('#nav').width();
+	var offBut = true;
+	//$nav.css('left', $viewW);
+    
+	$span.on('touchend',function(){
+		if(offBut){
+			//$nav.css('left', $viewW-$navW);
+			$nav.css('opacity', '1');
+			$nav.css('zIndex', '10');
+			$page.css('left', -$navW);
+		}else{
+			//$nav.css('left', $viewW);
+			$nav.css('opacity', '0');
+			$page.css('left', '0px');
+		}
+		offBut = !offBut;
+	});
+});
+</script>
+<div class="page">
+  <div id="nav">
+    <div class="nav_top"></div>
+  <div class="nav_secrch">
+     <!-- <form action="#" id="" class="">
+        <input type="search" name="sid" value="	">
+        <input type="botton" name="sid" value="">
+      </form>-->
+    </div>
+    <ul>
+      <li><a href="javascript:;">首页</a></li>
+      <li><a href="about.html">关于纳什</a></li>
+      <li><a href="join.html">进驻纳什</a></li>
+      <li><a href="service.html">业主服务</a></li>
+      <li><a href="job.html">加入纳什</a></li>
+    </ul>
+  </div>
+  <div class="bg">
+    <div class="welcom">
+      <div class="logo"><img src="img/logo.jpg" width="100" height="100"  alt=""/>
+        <h2>纳什空间</h2>
+        <span><img src="img/menu.png" width="60" height="60"  alt=""/></span> </div>
+      <div class="introduce">
+        <h3>NASH.WORK</h3>
+        <h4>你的创业 我的事业</h4>
+        <h5>工作空间 · 共享服务 · 办公社交</h5>
+        <a class="joinnash" href="http://www.mikecrm.com/f.php?t=h5yOdH">进驻纳什空间</a><br>
+        <a href="tel:400-650-0869"><span>400-650-0869</span></a> </div>
+    </div>
+  </div>
+  <div class="gzkj">
+    <h2>工作空间</h2>
+    <span>NASH.WORK</span>
+    <p>激情•开创  一生的事业</p>
+  </div>
+  <div id="tabPic">
+    <ul id="picList">
+      <li><img src="img/banner.jpg" /> </li>
+      <li><img src="img/banner3.jpg" /> </li>
+      <li><img src="img/banner2.jpg" /> </li>
+    </ul>
+    <p><span>即来即用</span><br>创业无需等待</p>
+    <p><span>精心设计</span><br>释放你的热情</p>
+    <p><span>个性定制</span><br>激发你的灵感</p>
+    <h2>功能完备的工作空间，等待你来，只为你的无需等待</h2>
+    <h2>动人贴心的空间体验，专为精英企业家和新锐创业者量身定制</h2>
+    <h2>满足每一分对空间的想象，做一支画笔，只为匠心独具的你</h2>
+    <div class="picMask">
+      <nav> <a href="javascript:;" class="active"></a> <a href="javascript:;"></a> <a href="javascript:;"></a></nav>
+    </div>
+  </div>
+  <!--共享服务--->
+  <div class="layer gzkj">
+    <h2>共享服务</h2>
+    <span>NASH.WORK</span>
+    <p>专注·享受  每天的工作</p>
+  </div>
+  <div class="layer index-service">
+    <ul class="clearfix ns_services">
+      <li class="fl"><i class="s_ico i1"></i>
+        <h4>企业开办</h4>
+        <div class="ns_hover">
+          <p>工商注册</p>
+          <p>税务登记</p>
+          <p>空间装修</p>
+          <p>办公家具</p>
+        </div>
+      </li>
+      <li class="fl"><i class="s_ico i2"></i>
+        <h4>日常行政</h4>
+        <div class="ns_hover">
+          <p>公共前台</p>
+          <p>办公用品</p>
+          <p>日常保洁</p>
+          <p>绿植租摆</p>
+        </div>
+      </li>
+      <li class="fl"><i class="s_ico i3"></i>
+        <h4>专业咨询</h4>
+        <div class="ns_hover">
+          <p>法律顾问</p>
+          <p>社保托管</p>
+          <p>财务托管</p>
+          <p>人力资源</p>
+        </div>
+      </li>
+      <li class="fl end"><i class="s_ico i4"></i>
+        <h4>企业级优惠</h4>
+        <div class="ns_hover">
+          <p>投融资服务</p>
+          <p>集团级优惠</p>
+          <p>战略资源共享</p>
+          <p></p>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!--办公社交-->
+  <div class="layer gzkj">
+    <h2>办公社交</h2>
+    <span>NASH.WORK</span>
+    <p>分享·共赢  精彩的人生</p>
+  </div>
+  <div class="layer index-social">
+    <p class="left"> <i>@</i><span>本地社交</span><br>
+      分享创业路上的点点滴滴 </p>
+    <p class="right"> <i>&</i><span>创业社区</span><br>
+      你的创业伙伴，等你来 </p>
+  </div>
+  <!--即刻开工·全城无忧-->
+  <div class="layer gzkj">
+    <h2>即刻开工·全城无忧</h2>
+    <span>NASH.WORK</span>
+    <p>即刻行动 释放你的梦想</p>
+  </div>
+  <div class="layer business">
+    <div id="busPic"><a href="join_kaixuan.html" target="_blank" class="active">德胜凯旋</a> <a href="join_yinzuo.html" target="_blank">东方银座</a> <a href="join_jinmao.html" target="_blank">金贸大厦</a> <a href="join_jinao.html" target="_blank">金澳国际</a><a href="join_yufei.html" target="_blank">宇飞大厦</a> <a href="join_shoucheng.html" target="_blank">首城国际</a><a href="join_yongli.html" target="_blank">永利国际</a></div>
+    <ul id="buslist">
+      <li class="active">德胜凯旋</li>
+      <li>东方银座</li>
+      <li>金贸大厦</li>
+      <li>金澳国际</li>
+      <li>宇飞大厦</li>
+      <li>首城国际</li>
+      <li>永利国际</li>
+    </ul>
+  </div>
+  <!--need you-->
+  <div class="layer index-job" onclick="window.location.href = 'job.html'">
+    <h3>NASH.WORK</h3>
+    <a href="job.html">需要你</a> </div>
+  <!---foot---->
+  <div class="footer-low">
+    <footer> <a href="index.html" class="logo-foot"><img src="img/08.jpg" alt="NASH.work"></a><br>
+      <a href="contact.html" class="link">联系我们</a><span>|</span><a href="link.html" class="link">友情链接</a>
+      <p class="copyRight">2015 纳什空间 版权所有 nash.work</p>
+      <a href="javascript:void(0)" class="wx"><img src="img/10.gif" alt=""><i></i></a></footer>
+  </div>
+</div>
+<script type="text/javascript">
+        
+        $(function(){
+            $('.index-service li').on('click',function(){
+                console.log($(this))
+                if($(this).hasClass('on')){
+                    $(this).removeClass('on');
+                }else{
+                    $(this).addClass('on');
+                }
+            });
+        });
+        </script>
+        <script src="js/statistics.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+
+/*公共样式*/
+body{font-size:12px; font-family:Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif; }
+body,p,ul,li,ol,h1,h2,h3,h4,h5,h6,dl,dt,dd,form,iframe,input,select{margin:0;padding:0; border:none;}
+ul,ul li,ol,li{list-style:none outside none;}
+img{ border:0 none; vertical-align:top;}
+input,select{vertical-align:middle;}
+/*设置左右浮动，class="fl"为左浮动，class="fr"为右浮动*/
+.fl { float:left; display:inline;}
+.fr { float:right; display:inline;}
+/*把h1--h6的字体大小和加粗样式全部清除掉，这样h标签就跟普通标签没有区别*/
+h1, h2, h3, h4, h5, h6 {font-size: 100%;font-weight: normal;}
+/*a样式*/
+a{text-decoration:none; color:#333;}
+a:link, a:visited { text-decoration:none;}
+a:hover { text-decoration:none;color: #c52225;}
+/*clear,clearfix是清楚浮动的----clearfix用法是：给浮动元素的父级添加class="clearfix"，即可清楚子元素的浮动，目前是业内比较流行的清楚浮动方法。*/
+.clear{ clear:both;}
+.clearfix:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix {zoom:1;display:block;_height:1px;clear:both;}
+
+/* 公共实体*/
+.main{ width:966px; margin:0 auto; padding:0 17px;}
+
+.footer{ height:340px; background:#232323; border-top:1px solid #5a5a5a; padding-top:90px;}
+.footer .logolink{ float:left; margin-right:50px;}
+.footer .wx{ float:right; width:60px; height:60px; display:block; background:url(../img/weixin.png) no-repeat; position:relative;}
+.footer .wx img{ margin-left:-120px; position:absolute; left:50%; bottom:56px; display:none;}
+.footer .wx:hover img{ display:block;}
+.footer .link{ color:#fff; font-size:16px;  display:inline-block;  padding:21px 15px 10px 0px;}
+.footer .bq{ color:#9e9e9e; font-size:16px;}
