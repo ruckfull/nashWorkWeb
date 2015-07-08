@@ -3,11 +3,17 @@
 var service = [
 		{ "project":"德胜凯旋项目" ,"img":"img/desheng/zhouhui.jpg" , "office":"投资经理" , "name":"周慧" , "tel":"13552916069" },
 		{ "project":"金澳国际项目" ,"img":"img/jinao/guanjibao.jpg" , "office":"投资经理" , "name":"管继宝" , "tel":"13811114645" },
-		{ "project":"永利国际项目" ,"img":"http://s.nashspace.com/r/i/rw.jpg" , "office":"投资经理" , "name":"谢兴" , "tel":"18500386629" },
+		{ "project":"永利国际项目" ,"img":"img/yongli/xiexing.jpg" , "office":"投资经理" , "name":"谢兴" , "tel":"18500386629" },
 		{ "project":"东方银座项目" ,"img":"img/yinzuo/songyang.jpg" , "office":"投资经理" , "name":"宋阳" , "tel":"13901317342" },
 		{ "project":"宇飞大厦项目" ,"img":"img/yinzuo/songyang.jpg" , "office":"投资经理" , "name":"宋阳" , "tel":"13901317342" },
 		{ "project":"金贸大厦项目" ,"img":"img/jinmao/zhangxiaolei.jpg" , "office":"投资经理" , "name":"张小蕾" , "tel":"13439487318" },
-		{ "project":"首城国际项目" ,"img":"http://s.nashspace.com/r/i/rw.jpg" , "office":"投资经理" , "name":"李芳" , "tel":"18046557441" }
+		{ "project":"首城国际项目" ,"img":"img/shoucheng/lifang.jpg" , "office":"投资经理" , "name":"李芳" , "tel":"18046557441" },
+		{ "project":"智慧大厦" ,"img":"img/zhihui/zhangkun.jpg" , "office":"投资经理" , "name":"张坤" , "tel":"13501081073" },
+		{ "project":"学院派" ,"img":"img/zhihui/zhangkun.jpg" , "office":"投资经理" , "name":"张坤" , "tel":"13501081073" },
+		{ "project":"依都阁" ,"img":"img/zhihui/zhangkun.jpg" , "office":"投资经理" , "name":"张坤" , "tel":"13501081073" },
+		{ "project":"金茂府" ,"img":"img/jinmaofu/wangpeng.jpg" , "office":"投资经理" , "name":"王鹏" , "tel":"15201334623" },
+		{ "project":"中关村公馆" ,"img":"img/lifangting/cuizhiwei.jpg" , "office":"投资经理" , "name":"崔志伟" , "tel":"18611260700" },
+		{ "project":"立方庭" ,"img":"img/lifangting/cuizhiwei.jpg" , "office":"投资经理" , "name":"崔志伟" , "tel":"18611260700" }
 	];
 
 $(function(){
@@ -19,7 +25,7 @@ $(function(){
 		$card.find('h5').text(name);
 		$card.find('h6').text(tel);
 	}
-	$('.service-img-join a').on('click',function(e){
+	$('.garrison_map a').on('click',function(e){
 		e.preventDefault();
 		var id = this.getAttribute('_data');
 		if(id){

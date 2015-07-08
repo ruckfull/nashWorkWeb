@@ -23,7 +23,6 @@ $(function(){
 	var $navW = $('#nav').width();
 	var offBut = true;
 	//$nav.css('left', $viewW);
-    
 	$span.on('touchend',function(){
 		if(offBut){
 			//$nav.css('left', $viewW-$navW);
@@ -34,6 +33,7 @@ $(function(){
 			//$nav.css('left', $viewW);
 			$nav.css('opacity', '0');
 			$page.css('left', '0px');
+			$nav.css('zIndex', '0');
 		}
 		offBut = !offBut;
 	});
@@ -145,15 +145,21 @@ $(function(){
   <p class="phone">400-650-0869</p>
 </div>
 <div class="layer business">
-  <div id="busPic"><a href="join_kaixuan.html" target="_blank" class="active" _data="0">德胜凯旋</a> <a href="join_yinzuo.html" target="_blank" _data="3">东方银座</a> <a href="join_jinmao.html" target="_blank" _data="5">金贸大厦</a> <a href="join_jinao.html" target="_blank" _data="1">金澳国际</a><a href="join_yufei.html" target="_blank" _data="4">宇飞大厦</a> <a href="join_shoucheng.html" target="_blank" _data="6">首城国际</a><a href="join_yongli.html" target="_blank" _data="2">永利国际</a></div>
+  <div id="busPic"><a class="active" _data="0">德胜凯旋</a> <a _data="3">东方银座</a> <a _data="5">金贸大厦</a> <a _data="1">金澳国际</a><a _data="4">宇飞大厦</a> <a _data="6">首城国际</a><a _data="2">永利国际</a><a _data="7">学院派</a><a _data="8">依都阁</a><a _data="9">智慧大厦</a><a _data="10">中关村...</a><a _data="11">立方庭</a><a _data="12">金茂府</a></div>
   <ul id="buslist">
-    <li class="active"><a href="join_kaixuan.html" target="_blank" class="active" _data="0">德胜凯旋</a></li>
-    <li><a href="join_yinzuo.html" target="_blank" _data="3">东方银座</a></li>
-    <li><a href="join_jinmao.html" target="_blank" _data="5">金贸大厦</a></li>
-    <li><a href="join_jinao.html" target="_blank" _data="1">金澳国际</a></li>
-    <li><a href="join_yufei.html" target="_blank" _data="4">宇飞大厦</a></li>
-    <li><a href="join_shoucheng.html" target="_blank" _data="6">首城国际</a></li>
-    <li><a href="join_yongli.html" target="_blank" _data="2">永利国际</a></li>
+    <li class="active"><a class="active" _data="0">德胜凯旋</a></li>
+    <li><a _data="3">东方银座</a></li>
+    <li><a _data="5">金贸大厦</a></li>
+    <li><a _data="1">金澳国际</a></li>
+    <li><a _data="4">宇飞大厦</a></li>
+    <li><a _data="6">首城国际</a></li>
+    <li><a _data="2">永利国际</a></li>
+    <li><a _data="7">学院派</a></li>
+    <li><a _data="8">依都阁</a></li>
+    <li><a _data="9">智慧大厦</a></li>
+    <li><a _data="10">中关村公馆</a></li>
+    <li><a _data="11">立方庭</a></li>
+    <li><a _data="12">金茂府</a></li>
   </ul>
 </div>
 
@@ -172,6 +178,12 @@ $(function(){
     <h6></h6>
   </div>
 </div>
+<script type="text/javascript">
+$('.footer-low').on('click',function(e){
+		e.preventDefault();
+		$('.wx i').hide();
+	});
+</script>
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 

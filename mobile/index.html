@@ -7,8 +7,6 @@
 <link href="css/index.css" rel="stylesheet" />
 <script type="text/javascript" src="js/common.js"></script>
 <script src="js/index.js"></script>
-
-
 </head>
 <body>
 <script>
@@ -25,7 +23,6 @@ $(function(){
 	var $navW = $('#nav').width();
 	var offBut = true;
 	//$nav.css('left', $viewW);
-    
 	$span.on('touchend',function(){
 		if(offBut){
 			//$nav.css('left', $viewW-$navW);
@@ -36,6 +33,7 @@ $(function(){
 			//$nav.css('left', $viewW);
 			$nav.css('opacity', '0');
 			$page.css('left', '0px');
+			$nav.css('zIndex', '0');
 		}
 		offBut = !offBut;
 	});
@@ -157,7 +155,7 @@ $(function(){
     <p>即刻行动 释放你的梦想</p>
   </div>
   <div class="layer business">
-    <div id="busPic"><a href="join_kaixuan.html" target="_blank" class="active">德胜凯旋</a> <a href="join_yinzuo.html" target="_blank">东方银座</a> <a href="join_jinmao.html" target="_blank">金贸大厦</a> <a href="join_jinao.html" target="_blank">金澳国际</a><a href="join_yufei.html" target="_blank">宇飞大厦</a> <a href="join_shoucheng.html" target="_blank">首城国际</a><a href="join_yongli.html" target="_blank">永利国际</a></div>
+    <div id="busPic"><a href="join_kaixuan.html" target="_blank" class="active">德胜凯旋</a> <a href="join_yinzuo.html" target="_blank">东方银座</a> <a href="join_jinmao.html" target="_blank">金贸大厦</a> <a href="join_jinao.html" target="_blank">金澳国际</a><a href="join_yufei.html" target="_blank">宇飞大厦</a> <a href="join_shoucheng.html" target="_blank">首城国际</a><a href="join_yongli.html" target="_blank">永利国际</a><a href="join_xueyuanpai.html" target="_blank">学院派</a><a href="join_yiduge.html" target="_blank">依都阁</a><a href="join_zhihui.html" target="_blank">智慧大厦</a></div>
     <ul id="buslist">
       <li class="active">德胜凯旋</li>
       <li>东方银座</li>
@@ -166,6 +164,9 @@ $(function(){
       <li>宇飞大厦</li>
       <li>首城国际</li>
       <li>永利国际</li>
+      <li>学院派</li>
+      <li>依都阁</li>
+      <li>智慧大厦</li>
     </ul>
   </div>
   <!--need you-->
@@ -192,6 +193,12 @@ $(function(){
                 }
             });
         });
+		
+$('.footer-low').on('click',function(e){
+		e.preventDefault();
+		$('.wx i').hide();
+	});
+
         </script>
         <script src="js/statistics.js"></script>
 </body>
