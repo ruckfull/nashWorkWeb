@@ -141,7 +141,7 @@ function fnBus(){
 			}
 			addClass(busA[this.index],"active");
 			addClass(busli[this.index],"active");
-			this.style.zIndex =2;
+			busA[this.index].style.zIndex =10;
 		}
 	}
 };
