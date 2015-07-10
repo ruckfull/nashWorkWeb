@@ -598,6 +598,7 @@ a:hover {
 	color: #676767;
 	margin: 20px 0px;
 }
+.ns_rzqy .h2title img{ float:right; display:block; margin-right:20px; margin-top:15px; width:30px; height:30px;}
 .inCompany {
 	width: 600px;
 	border: 1px solid #e2e2e2;
@@ -854,6 +855,7 @@ a:hover {
 .foreign {
 	width: 180px;
 	height:190px;
+
 	margin: 10px 10px;
 }
 .foreign .incom_logo {
