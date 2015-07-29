@@ -12,8 +12,16 @@ var service = [
 		{ "project":"学院派" ,"img":"img/zhihui/zhangkun.jpg" , "office":"投资经理" , "name":"张坤" , "tel":"13501081073" },
 		{ "project":"依都阁" ,"img":"img/zhihui/zhangkun.jpg" , "office":"投资经理" , "name":"张坤" , "tel":"13501081073" },
 		{ "project":"金茂府" ,"img":"img/jinmaofu/wangpeng.jpg" , "office":"投资经理" , "name":"王鹏" , "tel":"15201334623" },
-		{ "project":"中关村公馆" ,"img":"img/lifangting/cuizhiwei.jpg" , "office":"投资经理" , "name":"崔志伟" , "tel":"18611260700" },
-		{ "project":"立方庭" ,"img":"img/lifangting/cuizhiwei.jpg" , "office":"投资经理" , "name":"崔志伟" , "tel":"18611260700" }
+		{ "project":"中关村公馆" ,"img":"img/lifangting/qinmeiyue.jpg" , "office":"投资经理" , "name":"秦美悦" , "tel":"13811297346" },
+		{ "project":"立方庭" ,"img":"img/lifangting/qinmeiyue.jpg" , "office":"投资经理" , "name":"秦美悦" , "tel":"13811297346" },
+		{ "project":"科技会展中心" ,"img":"img/kejihuizhan/lishiming.jpg" , "office":"投资经理" , "name":"李世明" , "tel":"15727367611" },
+		{ "project":"数码银座" ,"img":"img/kejihuizhan/lishiming.jpg" , "office":"投资经理" , "name":"李世明" , "tel":"15727367611" },
+		{ "project":"铸诚大厦" ,"img":"img/kejihuizhan/lishiming.jpg" , "office":"投资经理" , "name":"李世明" , "tel":"15727367611" },
+		{ "project":"东亚望京中心" ,"img":"img/wangjing/houdongxia.jpg" , "office":"投资经理" , "name":"侯东霞" , "tel":"18801320804" },
+		{ "project":"合生麒麟社" ,"img":"img/qilinshe/liguangyue.jpg" , "office":"投资经理" , "name":"李光越" , "tel":"13717755535" },
+		{ "project":"悠乐汇" ,"img":"img/youlehui/chengqin.jpg" , "office":"投资经理" , "name":"程琴" , "tel":"18310900108" },
+		{ "project":"玲珑天地" ,"img":"img/linglong/weilichao.jpg" , "office":"投资经理" , "name":"隗立超" , "tel":"15901560399" },
+		{ "project":"名敦道" ,"img":"img/jinmaofu/wangpeng.jpg" , "office":"投资经理" , "name":"王鹏" , "tel":"15201334623" }
 	];
 
 $(function(){
@@ -117,7 +125,6 @@ function openmap(projectname){
 		return false;
 		}
 		var time=new Date().getTime();
-
      $('.mapfont a').attr('href','http://www.amap.com/#!poi!!q='+projectname+'&_t='+time+'&qcity=110000&ac=false');
 	 $('.mapfont a').attr('target','_blank');
 

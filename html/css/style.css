@@ -368,29 +368,7 @@ div.introduction h3 {
     line-height: 35px;
     padding: 45px 0;
 }
-.garrison_map {
-	height: 480px;
-	position: relative;
-	background: #ffae44;
-}
-.nsStart .ns_nsStart{ width:320px; position:absolute; background:url(../img/06.jpg) no-repeat scroll left top; top:50px; left:50%; height:381px; margin-left:-510px; padding:0px 0 0 680px; }
-.nsStart .ns_nsStart li{ width:120px; float:left; font-size:20px; line-height:55px; background:url(../img/line.jpg) repeat-y; padding-left:20px}
-.nsStart .ns_nsStart li i{ background:url(../img/28_04.png) no-repeat; color: #fff; font-size:14px; line-height:18px; padding-top:8px; height:66px; position: absolute;  width:50px;font-style: normal; text-align:center;}
-.nsStart .ns_nsStart li.st_1 i{ top:150px; left:265px;}/*德胜凯旋*/
-.nsStart .ns_nsStart li.st_2 i{ top: 148px; left:120px; z-index:3;}/*学院派*/
-.nsStart .ns_nsStart li.st_3 i{ top: 65px; left:222px;}/*金澳国际*/
-.nsStart .ns_nsStart li.st_4 i{ top: 145px; left:150px; z-index:2;}/*依都阁*/
-.nsStart .ns_nsStart li.st_5 i{ top:210px; left:390px; z-index:10;}/*永利国际*/
-.nsStart .ns_nsStart li.st_6 i{ top: 115px; left:130px;}/*智慧大厦*/
-.nsStart .ns_nsStart li.st_7 i{ top:175px; left:365px; z-index:9;}/*东方银座*/
-.nsStart .ns_nsStart li.st_8 i{ top: 0px; left:75px;}/*立方庭*/
-.nsStart .ns_nsStart li.st_9 i{ top:165px; left:385px;}/*宇飞大厦*/
-.nsStart .ns_nsStart li.st_10 i{ top: 35px; left:54px;}/*中关村公馆*/
-.nsStart .ns_nsStart li.st_11 i{ top:170px; left:130px; z-index:4;}/*金贸大厦*/
-.nsStart .ns_nsStart li.st_12 i{ top:295px; left:490px;}/*金茂府*/
-.nsStart .ns_nsStart li.st_13 i{ top:295px; left:442px;}/*首城国际*/
-.nsStart .ns_nsStart li:hover{ background:url(../img/ico.png) no-repeat scroll 0 0;}
-.nsStart .ns_nsStart li:hover i{ background-position:right 0; z-index:11;}
+
 .main_pic {
 	background: #f4ebe1;
 	padding: 50px 0;
@@ -441,7 +419,13 @@ div.introduction h3 {
 	padding-left: 20px;
 	color: #676767;
 	margin: 20px 0px;
+	
 }
+.ns_rzqy .h2title img {
+    float: right;
+    display: block;
+    margin-right: 20px;
+    margin-top: 15px;}
 .inCompany {
 	width: 178px;
 	border: 1px solid #e2e2e2;
