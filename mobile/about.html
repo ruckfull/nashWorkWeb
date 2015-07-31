@@ -6,16 +6,9 @@
 <meta name="viewport" content="width=640,user-scalable=no" />
 <link rel="stylesheet" type="text/css" href="css/m.css" />
 <script type="text/javascript" src="js/common.js"></script>
-<script src="js/lunbo.js"></script>
 </head>
 <body>
 <script>
-window.onload = function(){
-	//id('page').style.height=content().h+"px";	
-	fnLunbo('tabPic');
-	fnLunbo('banner');
-	//fnBus();
-};
 $(function(){
 	var $span  = $('.logo span');
 	var $page  = $('.welcom');
@@ -100,39 +93,44 @@ $(function(){
 </div>
 <div class="layer ourteam">
   <h3>我们的团队</h3>
-  <p>纳什领头人为连续创业团队，多年深耕房地产领域及移动互联网领域，对地产市场理解和判断有独到优势。我们目前有完整经过磨合的执行团队，成员来自清华、北大、同济等学府，高速运转中。</p>
-  <div id="tabPic">
-    <ul id="picList">
-      <li><img src="img/zhangjian.jpg" />
-        <h2 id="picfont">张剑 CEO</h2>
-        <p id="picfont2">清华大学土木系硕士<br>
+  <p>纳什领头人为连续创业团队，多年深耕房地产领域及移动互联网领域，对地产市场理解和判断有独到优势。我们目前有完整经过磨合的执行团队，成员来自清华、北大、同济等学府，高速运转中。</p>   
+      <div class="president clearfix">
+      	<img src="img/zhangjian.jpg" />
+      	<div class="president_intr">
+        <h2>张剑 CEO</h2>
+        <p>清华大学土木系硕士<br>
           拥有15年房地产行业经验及丰富的业内资源，6年成功的创业经历，并全程参与我爱我家房屋管理业务的发展。曾任汇石投资创始首席合伙人、伟业我爱我家董事会秘书兼副总经理。</p>
-      </li>
-      <li><img src="img/chenliang.jpg" />
-        <h2 id="picfont">陈亮 COO</h2>
-        <p id="picfont2">毕业于清华大学土木工程系<br>
+        </div>
+      	</div>
+      <div class="president clearfix">
+      	<img src="img/chenliang.jpg" />
+      	<div class="president_intr">
+        <h2>陈亮 COO</h2>
+        <p>毕业于清华大学土木工程系<br>
           拥有10年房地产研究、顾问、营销、经纪行业的专业经验，曾任伟业我爱我家集团高管、汇石资管董事总经理，具备数万套房屋的资产管理、运营管理经验。</p>
-      </li>
-      <li><img src="img/wangbo.jpg" />
-        <h2 id="picfont">王博 CTO </h2>
-        <p id="picfont2">巴黎第一大学MBA<br>
+      </div>
+      	</div>
+      <div class="president clearfix">
+      	<img src="img/wangbo.jpg" />
+      	<div class="president_intr">
+        <h2>王博 CTO </h2>
+        <p>巴黎第一大学MBA<br>
           拥有多年互联网创业及从业经历，曾任知名手机应用（AppStore总下载榜曾第一位）“拨号精灵”联合创始人、时尚集团创新中心产品总监，并曾创办过博客社区、母婴社区和B2C商城。</p>
-      </li>
-    </ul>
-    <div class="picMask">
-      <nav> <a href="javascript:;" class="active"></a> <a href="javascript:;"></a> <a href="javascript:;"></a></nav>
-    </div>
-  </div>
-<div id="banner">
-    <ul id="banner_pic">
-      <li><img src="img/zhanshi1.jpg" /></li>
-     <li><img src="img/zhanshi2.jpg" /></li>
-    </ul>
-    <div class="picMask">
-      <nav> <a href="javascript:;" class="active"></a> <a href="javascript:;"></a></nav>
-    </div>
-  </div>
-</div>
+     </div>
+      	</div>
+</div>   
+<style>
+	.president{ width: 96%; margin: 0 2%;}
+	.president img{ width: 20%; padding-left: 1%; float: left;}
+	.president_intr{ width: 78%; padding-left: 1%; float: right;}
+	.president_intr h2{ font-size: 2.2rem; padding-left: 2%;}
+	.president_intr p{ font-size: 1.8rem;}
+	
+</style>
+
+      <p style="width:100%;"><img src="img/zhanshi2.jpg" /></p>
+     <p style="width:100%;"><img src="img/zhanshi1.jpg" /></p>
+
 <div class="contact_us">
   <h2>联系我们</h2>
   <div class="totaladd">
@@ -232,15 +230,95 @@ $(function(){
     </div>
     <div class="project_img"><img src="img/project/yiduge/yiduge.png"></div>
   </div>
-  <!--学院派-->
+  <!--科技会展中心项目-->
   <div class="project">
     <div class="project_introd">
-      <h3>学院派项目</h3>
-      <p>010-59464380<br>
-        海淀区学院南路38号<br>
-        办公室6层603A</p>
+      <h3>科技会展中心项目</h3>
+      <p>010-65330266<br>
+        科技会展中心3号楼6D</p>
     </div>
-    <div class="project_img"><img src="img/project/xueyuanpai/xueyuanpai.png"></div>
+    <div class="project_img"><img src="img/project/kejihuizhan/kjhz.png"></div>
+  </div>
+    <!--数码银座大厦项目-->
+  <div class="project">
+    <div class="project_introd">
+      <h3>数码银座大厦项目</h3>
+      <p>010-65330266<br>
+        科技会展中心3号楼6D</p>
+    </div>
+    <div class="project_img"><img src="img/project/shumadasha/smyz.png"></div>
+  </div>
+    <!--铸诚大厦项目-->
+  <div class="project">
+    <div class="project_introd">
+      <h3>铸诚大厦项目</h3>
+      <p>010-65330266<br>
+        科技会展中心3号楼6D</p>
+    </div>
+    <div class="project_img"><img src="img/project/zhucheng/zc.png"></div>
+  </div>
+    <!--立方庭项目-->
+  <div class="project">
+    <div class="project_introd">
+      <h3>立方庭项目</h3>
+      <p>010-65330266<br>
+        立方庭2段918室</p>
+    </div>
+    <div class="project_img"><img src="img/project/lifangting/lft.png"></div>
+  </div>
+    <!--中关村公馆项目-->
+  <div class="project">
+    <div class="project_introd">
+      <h3>中关村公馆项目</h3>
+      <p>010-65330266<br>
+        立方庭2段918室</p>
+    </div>
+    <div class="project_img"><img src="img/project/zhongguancun/zgc.png"></div>
+  </div>
+    <!--东亚望京中心项目-->
+  <div class="project">
+    <div class="project_introd">
+      <h3>东亚望京中心项目</h3>
+      <p>010-65330266<br>
+        东亚望京中心A座510室</p>
+    </div>
+    <div class="project_img"><img src="img/project/wangjing/wj.png"></div>
+  </div>
+    <!--合生麒麟社项目-->
+  <div class="project">
+    <div class="project_introd">
+      <h3>合生麒麟社项目</h3>
+      <p>010-65330266<br>
+        合生麒麟社1号楼2709室</p>
+    </div>
+    <div class="project_img"><img src="img/project/qilinshe/qls.png"></div>
+  </div>
+    <!--悠乐汇项目-->
+  <div class="project">
+    <div class="project_introd">
+      <h3>悠乐汇项目</h3>
+      <p>010-65330266<br>
+        悠乐汇D座2802室</p>
+    </div>
+    <div class="project_img"><img src="img/project/youlehui/ylh.png"></div>
+  </div>
+    <!--玲珑天地项目-->
+  <div class="project">
+    <div class="project_introd">
+      <h3>玲珑天地项目</h3>
+      <p>010-65330266<br>
+        玲珑天地A405室</p>
+    </div>
+    <div class="project_img"><img src="img/project/linglong/lltd.png"></div>
+  </div>
+    <!--名敦道项目-->
+  <div class="project">
+    <div class="project_introd">
+      <h3>名敦道项目</h3>
+      <p>010-65330266<br>
+        名敦道7号楼1812室</p>
+    </div>
+    <div class="project_img"><img src="img/project/mingdundao/mdd.png"></div>
   </div>
 </div>
   <div class="footer-low"><footer> <a href="index.html" class="logo-foot"><img src="img/08.jpg" alt="NASH.work"></a><br><a href="contact.html" class="link">联系我们</a><span>|</span><a href="link.html" class="link">友情链接</a>

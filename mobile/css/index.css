@@ -59,25 +59,32 @@ a:link,a:visited,a:hover,a:active{ color:#fff;}
 #tabPic .picMask  a{float:left;width:10px;height:10px; border-radius:5px;background:#a3a3a3; opacity:0.5;margin-left:15px;}
 #tabPic .picMask  a.active{ background:#f6ab47; opacity:1;}
 
-.business{ background:url(../img/bg4.gif) repeat-x top; overflow:hidden;}
+.business{ background:#ffaf46; width:100%;overflow:hidden;}
 #busPic{ background:url(../img/dt.jpg) no-repeat; width:590px; height:381px; position:relative; margin:2%;}
-#busPic a{ color:#FFF; position: absolute; background: url(../img/icon2.png); display: block; width:34px; height:63px; font-size:16px; padding:18px;}
-#busPic a:nth-of-type(1){left:255px; top:120px; }
-#busPic a:nth-of-type(2){left:360px; top:150px; }
-#busPic a:nth-of-type(3){left:123px; top:145px;}
-#busPic a:nth-of-type(4){left:215px; top:50px;}
-#busPic a:nth-of-type(5){left:385px; top:130px;}
-#busPic a:nth-of-type(6){left:441px; top:262px; }
-#busPic a:nth-of-type(7){left:380px; top:190px;}
-#busPic a:nth-of-type(8){left:108px; top:110px;}
-#busPic a:nth-of-type(9){left:145px; top:110px; }
-#busPic a:nth-of-type(10){left:125px; top:70px;}
-#busPic a:nth-of-type(11){left:63px; top:-30px;}
-#busPic a:nth-of-type(12){left:47px; top:0px;}
-#busPic a:nth-of-type(13){left:481px; top:262px;}
+#busPic a{ color:#FFF; position: absolute; background: url(../img/icon2.png); display: block; font-size: 14px;height: 55px;padding: 5px 10px;position: absolute;width: 30px; text-align: center;}
+#busPic a:nth-of-type(1){left:268px; top:152px; }/*德胜凯旋*/
+#busPic a:nth-of-type(2){left:366px; top:179px; }/*东方银座*/
+#busPic a:nth-of-type(3){left:133px; top:174px;}/*金贸大厦*/
+#busPic a:nth-of-type(4){left:224px; top:67px;}/*金澳国际*/
+#busPic a:nth-of-type(5){left:388px; top:166px;}/*宇飞大厦*/
+#busPic a:nth-of-type(6){left:443px; top:298px; }/*首城国际*/
+#busPic a:nth-of-type(7){left:393px; top:213px;}/*永利国际*/
+#busPic a:nth-of-type(8){left:124px; top:152px;}/*学院派*/
+#busPic a:nth-of-type(9){left:153px; top:148px; }/*依都阁*/
+#busPic a:nth-of-type(10){left:132px; top:117px;}/*智慧大厦*/
+#busPic a:nth-of-type(11){left:78px; top:0px;}/*立方庭*/
+#busPic a:nth-of-type(12){left:60px; top:34px;}/*中关村公馆*/
+#busPic a:nth-of-type(13){left:152px; top:127px;}/*科技会展中心*/
+#busPic a:nth-of-type(14){left:103px; top:127px;}/*数码银座*/
+#busPic a:nth-of-type(15){left:92px; top:152px;}/*铸诚大厦*/
+#busPic a:nth-of-type(16){left:522px; top:8px; z-index: 1;}/*东亚望京中心*/
+#busPic a:nth-of-type(17){left:542px; top:10px;}/*合生麒麟社*/
+#busPic a:nth-of-type(18){left:508px; top:12px;}/*悠乐汇*/
+#busPic a:nth-of-type(19){left:23px; top:127px;}/*玲珑天地*/
+#busPic a:nth-of-type(20){left:370px; top:272px;}/*名敦道*/
 #busPic .active{ background: url(../img/icon3.png); z-index:10;}
 #buslist{ border:1px #cc8b36 solid; border-left:none; border-right:none; margin-bottom:10px; padding:20px 0px; height:100%; overflow:hidden;}
-#buslist li{ color:#3c3c3c; font-size:21px; float: left; width:110px; height:60px; line-height:60px; padding-left:60px; z-index:1;}
+#buslist li{ color:#3c3c3c; font-size:21px; float: left; width:130px; height:60px; line-height:60px; padding-left:60px; z-index:1;}
 #buslist .active{ background:url(../img/icon4.png) no-repeat 25px 25px;z-index:10;}
 
 

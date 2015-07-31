@@ -8,7 +8,6 @@ body {
 	width: 100%;
 	overflow-y: scroll;
 	font-size: 1.4rem;
-	line-height: 25px;
 	color: #3c3c3c;
 	background: #fff;
 	min-height: 100%;
@@ -17,10 +16,6 @@ body {
 	margin: 0;
 	padding: 0;
 	border: 0;
-}
-*, *:before, *:after {
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
 }
 ul {
 	list-style: none;
@@ -165,8 +160,8 @@ a:hover {
 	color: #4a4a4a;
 	font-size: 2.2rem;
 	line-height: 3.5rem;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 .job-info {
 	background: #f3f3f3;
@@ -230,8 +225,8 @@ a:hover {
 .about_content {
 	padding-top: 30px;
 	padding-bottom: 60px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 .about_content h3 {
 	font-size: 30px;
@@ -259,9 +254,9 @@ a:hover {
 .ourteam p {
 	font-size: 2.2rem;
 	line-height: 35px;
-	padding-left: 30px;
+	padding-left: 2%;
 	padding-bottom: 35px;
-	padding-right:30px;
+	padding-right:2%;
 }
 .contact_us {
 	background: #f5e8d9;
@@ -310,8 +305,8 @@ a:hover {
 	display: block;
 	padding-top: 40px;
 	padding-right: 30px;
-	width:165px;
-	height:175px;
+	width:135px;
+	height:135px;
 }
 .contact_us .project img {
 	width: 100%;
@@ -334,14 +329,13 @@ a:hover {
 }
 #banner #banner_pic {
 	overflow: hidden;
-	width: 500%;
+	width: 10000%;
 }
 #banner #banner_pic p{ text-align:center; color:#fff;}
 #banner #banner_pic li {
 	float: left;
 }
 #banner #banner_pic img {
-	
 }
 
 #banner .picMask {
@@ -512,66 +506,35 @@ a:hover {
 	line-height: 50px;
 }
 /*二级页面map*/
-.business {
-	background:#ffaf46;
-	overflow: hidden;
-}
-#busPic {
-	background:url(../img/dt.jpg) no-repeat;
-	width: 590px;
-	height: 381px;
-	position: relative;
-	margin: 2%;
-}
-#busPic a {
-	color: #FFF;
-	position: absolute;
-	background: url(../img/icon2.png);
-	display: block;
-	width: 70px;
-	height: 99px;
-	font-size: 16px;
-	padding-left: 18px;
-	padding-top:15px;
-	padding-right:15px;
-}
-#busPic a:nth-of-type(1){left:255px; top:120px; z-index:2}
-#busPic a:nth-of-type(2){left:360px; top:150px; z-index:2}
-#busPic a:nth-of-type(3){left:123px; top:145px; z-index:4}
-#busPic a:nth-of-type(4){left:215px; top:50px;}
-#busPic a:nth-of-type(5){left:385px; top:130px;}
-#busPic a:nth-of-type(6){left:441px; top:262px; z-index:2;}
-#busPic a:nth-of-type(7){left:380px; top:190px;}
-#busPic a:nth-of-type(8){left:108px; top:110px; z-index:3;}
-#busPic a:nth-of-type(9){left:145px; top:110px; z-index:2}
-#busPic a:nth-of-type(10){left:125px; top:70px;}
-#busPic a:nth-of-type(11){left:63px; top:-30px;}
-#busPic a:nth-of-type(12){left:47px; top:0px;}
-#busPic a:nth-of-type(13){left:481px; top:262px;}
-#busPic .active {
-	background: url(../img/icon3.png) no-repeat; z-index:10;
-}
-#buslist {
-	border: 1px #cc8b36 solid;
-	border-left: none;
-	border-right: none;
-	padding: 20px 0px;
-	height: 100%;
-	overflow:hidden;
-	margin-bottom:30px;
-}
-#buslist li {
-	color: #3c3c3c;
-	font-size: 21px;
-	float: left;
-	width: 200px;
-	height: 60px;
-	line-height: 60px;
-	padding-left: 60px;
-}
-#buslist .active {
-	background: url(../img/icon4.png) no-repeat 25px 25px;
-}
+.business{ background:#ffaf46; width:100%;overflow:hidden;}
+#busPic{ background:url(../img/dt.jpg) no-repeat; width:590px; height:381px; position:relative; margin:2%;}
+#busPic a{ color:#FFF; position: absolute; background: url(../img/icon2.png); display: block; font-size: 14px;height: 55px;padding: 5px 10px;position: absolute;width: 30px; text-align: center;}
+#busPic a:nth-of-type(1){left:268px; top:152px; }/*德胜凯旋*/
+#busPic a:nth-of-type(2){left:366px; top:179px; }/*东方银座*/
+#busPic a:nth-of-type(3){left:133px; top:174px;}/*金贸大厦*/
+#busPic a:nth-of-type(4){left:224px; top:67px;}/*金澳国际*/
+#busPic a:nth-of-type(5){left:388px; top:166px;}/*宇飞大厦*/
+#busPic a:nth-of-type(6){left:443px; top:298px; }/*首城国际*/
+#busPic a:nth-of-type(7){left:393px; top:213px;}/*永利国际*/
+#busPic a:nth-of-type(8){left:124px; top:152px;}/*学院派*/
+#busPic a:nth-of-type(9){left:153px; top:148px; }/*依都阁*/
+#busPic a:nth-of-type(10){left:132px; top:117px;}/*智慧大厦*/
+#busPic a:nth-of-type(11){left:78px; top:0px;}/*立方庭*/
+#busPic a:nth-of-type(12){left:60px; top:34px;}/*中关村公馆*/
+#busPic a:nth-of-type(13){left:152px; top:127px;}/*科技会展中心*/
+#busPic a:nth-of-type(14){left:103px; top:127px;}/*数码银座*/
+#busPic a:nth-of-type(15){left:92px; top:152px;}/*铸诚大厦*/
+#busPic a:nth-of-type(16){left:522px; top:8px; z-index: 1;}/*东亚望京中心*/
+#busPic a:nth-of-type(17){left:542px; top:10px;}/*合生麒麟社*/
+#busPic a:nth-of-type(18){left:508px; top:12px;}/*悠乐汇*/
+#busPic a:nth-of-type(19){left:23px; top:127px;}/*玲珑天地*/
+#busPic a:nth-of-type(20){left:370px; top:272px;}/*名敦道*/
+#busPic a:nth-of-type(21){left:483px; top:298px;}/*金茂府*/
+#busPic .active{ background: url(../img/icon3.png); z-index:10;}
+#buslist{ border:1px #cc8b36 solid; border-left:none; border-right:none; margin-bottom:10px; padding:20px 0px; height:100%; overflow:hidden;}
+#buslist li{ color:#3c3c3c; font-size:21px; float: left; width:130px; height:60px; line-height:60px; padding-left:60px; z-index:1;}
+#buslist .active{ background:url(../img/icon4.png) no-repeat 25px 25px;z-index:10;}
+
 /*友情连接*/
 .fl {
 	display: inline;
@@ -581,58 +544,7 @@ a:hover {
 	display: inline;
 	float: right;
 }
-.ns_rzqy {
-	margin: 50px 10px;
-}
-.ns_rzqy .rzqy {
-	font-size: 36px;
-	line-height: 72px;
-	color: #535353;
-	text-align: center;
-}
-.ns_rzqy .h2title {
-	background: #f9f9f9;
-	font-size: 22px;
-	line-height: 60px;
-	padding-left: 20px;
-	color: #676767;
-	margin: 20px 0px;
-}
-.ns_rzqy .h2title img{ float:right; display:block; margin-right:20px; margin-top:15px; width:30px; height:30px;}
-.inCompany {
-	width: 600px;
-	border: 1px solid #e2e2e2;
-	margin: 10px 8px;
-	padding: 20px;
-}
-.inCompany .incom_pic {
-	float: left;
-	width: 180px;
-	height:140px;
-}
-.inCompany .float_intro {
-	float: right;
-	width: 360px;
-	height:100%;
-	border-left: 1px solid #BEBEBE;
-	padding-left: 20px;
-}
-.inCompany .incom_pic img {
-	width: 100%;
-	height: 100%;
-}
-.inCompany h3 {
-	font-size: 2.4rem;
-	line-height: 26px;
-	margin-top: 15px;
-	color: #363636;
-}
-.inCompany p {
-	font-size: 2rem;
-	line-height: 30px;
-	color: #363636;
-	padding-top: 20px;
-}
+
 /*项目页样式*/
 .content {
 	margin: 0 auto;
@@ -691,7 +603,7 @@ a:hover {
 	margin-top: 60px;
 	width: 580px;
 	height: 240px;
-	padding-left: 40px;
+	padding-left: 1%;
 	color: #535353;
 	margin-right: 30px;
 	margin-left: 30px;
