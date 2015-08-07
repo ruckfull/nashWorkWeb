@@ -60,7 +60,8 @@ filter:Alpha(opacity=35); background:#000;/*实现IE背景透明*/}
 .ns_services li .s_ico.i4{ background-position:-140px -911px;}
 .ns_services li h4{font-size:26px; line-height:42px; color:#aaaaaa; text-align:center;}
 .ns_services li .ns_hover { position:absolute;line-height:48px; left:0; top:0; width:100%; text-align:center; display:none; background:url(../img/services.png) no-repeat scroll 0 -382px; height:240px; padding-top:80px;}
-.ns_services li .ns_hover p{ font-size:24px; color:#fff;}
+.ns_services li .ns_hover p{ font-size:24px;color:#fff; }
+.ns_services li .ns_hover p a{color:#fff;}
 .ns_services li:hover .ns_hover { display:block;}
 
 /* 办公社交 css*/

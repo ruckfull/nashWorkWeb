@@ -1,0 +1,90 @@
+.header {overflow: hidden;width: 100%;background: #232323;}
+.header .header_nav .nav li {float: left;}
+.header .header_nav {height: 160px;margin: 0 auto;color: #fff;width: 1000px;position: relative;z-index: 999;}
+.header .header_nav a {color: #fff;}
+.header .header_nav h2 {line-height: 160px;height: 90px;padding-top: 50px;padding-bottom: 10px;letter-spacing: 30px;font-size: 25px;float: left;}
+.header .header_nav h2 img {margin-right: 30px;}
+.header .header_nav .nav {float: right;font-size: 16px;}
+.header .header_nav .nav li {margin: 0px 15px;padding: 40px 20px 0;line-height: 50px;}
+.header .header_nav .nav li:hover {background:rgba(0, 0, 0, 0.35) none repeat scroll 0 0 !important;/*实现FF背景透明，文字不透明*/filter:Alpha(opacity=35); background:#000;/*实现IE背景透明*/}
+.header .header_nav .nav li.on {background:rgba(0, 0, 0, 0.35) none repeat scroll 0 0 !important;/*实现FF背景透明，文字不透明*/filter:Alpha(opacity=35); background:#000;/*实现IE背景透明*/}
+.content {margin: 0 auto;width: 960px; padding: 30px 20px;}
+.content h2{ color: #363636; font-size: 30px;margin-top: 20px; margin-bottom: 30px;}
+.content .about_style{margin-top: 40px; height: 54px; line-height: 54px; padding-top: 20px; }
+.content .about_style .fr .clearfix .fl img{ padding-right: 35px;}
+.content .about_style p{ font-size: 36px; padding-left: 30px; float: right; color: #363636;}
+.content .garrison_c {font-size: 18px;line-height: 30px; padding-bottom: 15px;}
+.content .pro{ margin-bottom: 20px; text-align: center;}
+.content .logo{ padding-top: 70px; padding-bottom: 70px;}
+.content .title{ float: right; background:#f39938 ; font-size: 32px; height: 90px; line-height: 90px; width: 640px; color: #fff; text-align: center;}
+.content .qhy{border: 1px solid #DFDFDF;margin-bottom: 25px; text-align: center;}
+.content .qhy li{ width: 30%; float: left; padding-left: 30px; padding-top: 30px; padding-bottom: 30px; line-height: 24px;}
+.content .qhy li h4{ font-size: 18px;margin-bottom: 20px;}
+.service{ position: absolute; width: 100%; height: 100%; background:url(../img/service/banwu/banner.jpg) no-repeat; background-position: center top;}
+.ourservice{position:relative;color: #4e4e4e;font-size: 48px;line-height: 75px;padding-top: 65px;letter-spacing: 20px;text-align: center;}
+.ourservice_sl{width: 370px;text-align: center;border: 1px solid #F3982D;font-size: 18px;line-height: 38px;color: #F3982D;margin: 0px auto;letter-spacing: 5px;}
+.ourservice_jqkc{position:relative;color: #4e4e4e;font-size: 18px;letter-spacing: 5px;line-height: 70px;text-align: center;}
+.pubmain{width: 100%; height: 100%; overflow: hidden; color: #363636;}
+.main_top{border-top:1px solid #e9e9e9; }
+.main_bottom{border-bottom:1px solid #e9e9e9; }
+.main_service{ background: #fff5e8; text-align: center;}
+.main_service .intr{ border: 3px solid #fbe0c0; line-height: 70px; font-size: 20px; margin-bottom: 15px;margin-top: 30px; }
+.main_service .intr span{ padding-right: 45px; color: #363636;}
+.main_process{ background: #f4f4f4;text-align: center;}
+.main_process .content ul li{ float: left; width: 310px; background: #f4d8b8; height: 70px; line-height: 70px; font-size: 20px; }
+.main_process .content ul li:nth-child(2){ margin-left: 15px; margin-right: 15px;}
+.main_process .content ul li div{ background:url(../img/service/icon_1.png) no-repeat; width:30%;float: left; color: #fff;
+font-size: 48px;}
+.main_qhy .content ul li{ float: left; width: 235px; background: #f4d8b8; height: 70px; line-height: 70px; font-size: 20px; }
+.main_qhy .content ul li:nth-child(2){ margin-left: 6px; margin-right: 6px;}
+.main_qhy .content ul li:nth-child(3){ margin-right: 6px;}
+.main_qhy .content ul li div{ background:url(../img/service/icon_1.png) no-repeat; width:40%;float: left; color: #fff;
+font-size: 48px;}
+.main_service .content ul li a{ display: block; width: 69%; float: right;}
+.banwu_logo{background: url(../img/service/banwu/banwu_ban.jpg) no-repeat; background-position: center; width: 100%; height: 100%;}
+.about_our{ border: 1px solid #dfdfdf; width: 920px; padding:35px 20px; margin-bottom: 25px;}
+.about_our li{ float: left; width: 23%;line-height: 25px;}
+.about_our li:nth-child(2){ width: 30%;}
+.about_our li h4{ font-size: 18px;}
+.service_price{background: #f4f4f4;}
+.service_price p{ border-top: 1px solid #dfdfdf;border-bottom: 1px solid #dfdfdf;margin-bottom: 10px;}
+.service_price a{ background: url(../img/service/join.png) no-repeat; background-position: center center; margin-top: 50px; display:block; font-size: 24px; height: 52px; line-height: 52px; color:#fff; text-align: center;}
+.service_price ul{ width: 960px; height: auto; overflow: hidden;}
+.service_price ul li{ float: left; width: 470px;}
+.service_price ul li:nth-child(1){ margin-right: 10px; margin-bottom: 10px;}
+.service_price ul li:nth-child(2){ margin-left: 10px;margin-bottom: 10px;}
+.service_price ul li:nth-child(3){ margin-right: 10px;}
+.service_price ul li:nth-child(4){ margin-left: 10px;}
+.service_price .more{ background:#F39938; width: 50%; margin: 20px auto;}
+.price_font{ font-size: 18px; background: #FFF; border-left: 1px solid #dfdfdf;border-right: 1px solid #dfdfdf; padding:35px; line-height: 30px;}
+.price_font span{ font-size: 24px; color: #a62902;}
+.tel{ font-size: 24px; text-align: center; color: #363636; padding-top: -5px;}
+.ewm{ text-align: center;margin-top: 40px;}
+.ewm p{ font-size: 18px; border: none; margin-top: 15px;}
+.price_table{ width: 960px; background: #fff; border: 1px solid #dfdfdf;}
+.price_table table{ width: 920px; margin:10px 20px; }
+.price_table table td{ height: 50px;}
+.price_table table div{ font-size: 16px;}
+.logo img{ width: 320px; height: 90px; float: left;}
+.youbo_logo{background: url(../img/service/youbo/youbo_ban.jpg) no-repeat; background-position: center; width: 100%; height: 100%;}
+.youbo{ width: auto; margin-bottom: 50px;}
+.youbo li{ float: left; text-align: center; margin-right: 60px;}
+.youbo li:nth-last-child(1){ margin-right: 0px;}
+.youbo h4{font-size: 18px;}
+.shebo{border: 1px solid #dfdfdf;width: auto; margin-bottom: 50px;}
+.shebo li{float: left; padding:40px; margin-right: 0; text-align: left; line-height: 25px;}
+.shebo li h4{ text-align: center; margin-top: 25px; margin-bottom: 20px;font-size: 18px;}
+.shebo li img{ padding-left: 45px;}
+.about_me{ float: left; width:680px;margin-top: 30px;}	
+.about_me h3{ font-size: 30px; margin-bottom: 30px;}
+.about_me p{ border: none; font-size: 18px; line-height: 35px;}
+.xisiyun{ width: 960px; }
+.xisiyun li{ width: 180px; float: left; padding-right: 12px; line-height: 25px;}
+.xisiyun li img{ padding-left: 48px;}
+.xisiyun li h4{font-size: 18px; text-align: center; margin-bottom: 10px; margin-top: 10px;}
+
+.qingheyuan_logo{ background: url(../img/service/qingheyuan/qingheyuan_ban.jpg) no-repeat; background-position: center; width: 100%; height: 100%;}
+.zhuce_logo{ background: url(../img/service/91zhuce/zhuce_ban.jpg) no-repeat; background-position: center; width: 100%; height: 100%;}
+.shebao_logo{ background: url(../img/service/51shebao/shebao_ban.jpg) no-repeat; background-position: center; width: 100%; height: 100%;}
+.hotel_logo{ background: url(../img/service/hotel/hotel_ban.jpg) no-repeat; background-position: center; width: 100%; height: 100%;}
+.ssww_logo{ background: url(../img/service/ssww/ssww_ban.png) no-repeat; background-position: center; width: 100%; height: 100%;}

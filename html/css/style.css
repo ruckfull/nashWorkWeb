@@ -27,8 +27,10 @@
 	color: #fff;
 }
 .header .header_nav h2 {
-	line-height: 150px;
-	padding-top: 40px;
+	line-height: 160px;
+	height: 90px;
+	padding-top: 50px;
+	padding-bottom: 10px;
 	letter-spacing: 30px;
 	font-size: 25px;
 	float: left;
@@ -799,3 +801,10 @@ img.pro-img{width:410px;height:400px;float:left;display:inline;}
 
 /*空间架构师*/
 .layer{ position:absolute;}
+
+
+/*service_服务*/
+.service{ position: absolute; width: 100%; height: 100%; background: url(../img/service/banwu/banner.jpg) no-repeat; background-position: center top;}
+.ourservice{position:relative;color: #4e4e4e;font-size: 48px;line-height: 75px;padding-top: 65px;letter-spacing: 20px;text-align: center;}
+.ourservice_sl{width: 370px;text-align: center;border: 1px solid #F3982D;font-size: 18px;line-height: 38px;color: #F3982D;margin: 0px auto;}
+.ourservice_jqkc{position:relative;color: #4e4e4e;font-size: 18px;letter-spacing: 5px;line-height: 70px;text-align: center;}
