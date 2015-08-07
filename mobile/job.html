@@ -27,10 +27,12 @@ $(function(){
 			//$nav.css('left', $viewW);
 			$nav.css('opacity', '0');
 			$page.css('left', '0px');
+			$nav.css('zIndex', '0');
 		}
 		offBut = !offBut;
 	});
 });
+
 </script>
 <body class="job">
 <div class="header"> 
@@ -104,6 +106,12 @@ $(function(){
     <p class="copyRight">2015 纳什空间 版权所有 nash.work</p>
     <a href="javascript:void(0)" class="wx"><img src="img/10.gif" alt=""><i></i></a></footer>
 </div>
+<!--script type="text/javascript">
+$('.footer-low').on('click',function(e){
+		e.preventDefault();
+		$('.wx i').hide();
+	});
+</script--->
 <script src="js/statistics.js"></script>
 </body>
 </html>

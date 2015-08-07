@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=640,user-scalable=no" />
 <link rel="stylesheet" type="text/css" href="css/m.css" />
 <script type="text/javascript" src="js/common.js"></script>
-<script src="js/index.js"></script>
+<!--<script src="js/index.js"></script>-->
 </head>
 <body>
 <script>
@@ -34,6 +34,7 @@ $(function(){
 			//$nav.css('left', $viewW);
 			$nav.css('opacity', '0');
 			$page.css('left', '0px');
+			$nav.css('zIndex', '0');
 		}
 		offBut = !offBut;
 	});
@@ -76,7 +77,15 @@ $(function(){
   </li>
 </ul>
 <!-- 轮播图 end-->
+<style>
+.ns_rzqy{ width:96%; margin: 2%;}
+.ns_rzqy .inCompany{ width:30%; padding:1%}
+.ns_rzqy .inCompany .incom_pic{ width: 100%;  border: 1px solid #E2E2E2;}
+.ns_rzqy .inCompany .incom_pic img{ width: 100%; height: 100%;}
+.ns_rzqy .inCompany h3{ font-size: 2.2rem; text-align: center;}
+.ns_rzqy .inCompany a:hover{color: #333333;}
 
+</style>
 <div class="ns_rzqy">
  <div class="clearfix">
     <div class="fl inCompany">
@@ -89,8 +98,7 @@ $(function(){
      </a> 
     </div>
      <div class="fl inCompany">
-    <a href="http://www.uboche.com/" target="_blank">
-    
+      <a href="http://www.uboche.com/" target="_blank">    
       <p class="incom_pic"><img src="img/bjyb.jpg"></p>
       <div class="float_intro">
       <h3>北京悠泊科技有限公司</h3>
@@ -109,16 +117,18 @@ $(function(){
     </div>
  </div>  
  </div> 
-
-
-
-
 <div class="footer-low">
   <footer> <a href="index.html" class="logo-foot"><img src="img/08.jpg" alt="NASH.work"></a><br>
     <a href="contact.html" class="link">联系我们</a><span>|</span><a href="link.html" class="link">友情链接</a>
     <p class="copyRight">2015 纳什空间 版权所有 nash.work</p>
     <a href="javascript:void(0)" class="wx"><img src="img/10.gif" alt=""><i></i></a></footer>
 </div>
+<!--script type="text/javascript">
+$('.footer-low').on('click',function(e){
+		e.preventDefault();
+		$('.wx i').hide();
+	});
+</script--->
 <script src="js/statistics.js"></script>
 </body>
 </html>

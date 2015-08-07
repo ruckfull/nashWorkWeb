@@ -60,7 +60,8 @@ filter:Alpha(opacity=35); background:#000;/*实现IE背景透明*/}
 .ns_services li .s_ico.i4{ background-position:-140px -911px;}
 .ns_services li h4{font-size:26px; line-height:42px; color:#aaaaaa; text-align:center;}
 .ns_services li .ns_hover { position:absolute;line-height:48px; left:0; top:0; width:100%; text-align:center; display:none; background:url(../img/services.png) no-repeat scroll 0 -382px; height:240px; padding-top:80px;}
-.ns_services li .ns_hover p{ font-size:24px; color:#fff;}
+.ns_services li .ns_hover p{ font-size:24px;color:#fff; }
+.ns_services li .ns_hover p a{color:#fff;}
 .ns_services li:hover .ns_hover { display:block;}
 
 /* 办公社交 css*/
@@ -78,24 +79,12 @@ filter:Alpha(opacity=35); background:#000;/*实现IE背景透明*/}
 .ns_office .w2{ width:1%; border-left:2px solid #fff; margin:0 auto; height:120px;}
 
 /* 即刻开工·全城无忧 css*/
-.nsStart{ background:#ffae44; height:800px; position:relative;}
+.nsStart{ background:#ffae44;padding-top:40px; position:relative;}
 .nsStart_h2{ color:#3c3c3c;font-size:48px; line-height:80px;letter-spacing:20px;text-align:center; padding-top:40px; }
 .cfff{color:#fff; }
 .nsStart_sl{width:370px; text-align:center; border:1px solid #fff;font-size:18px; line-height:38px; color:#fff; margin:0 auto; }
 .nsStart_jqkc{ color:#fff; font-size:18px; line-height:80px; letter-spacing:5px; text-align:center;}
-.nsStart .ns_nsStart{ width:320px; position:absolute; background:url(../img/06.jpg) no-repeat scroll left top; top:300px; left:50%; height:320px; margin-left:-510px; padding:100px 0 0 680px; margin-top: -50px;}
-.nsStart .ns_nsStart li{ width:120px; float:left; font-size:20px; line-height:60px; background:url(../img/line.jpg) repeat-y; padding-left:20px}
-.nsStart .ns_nsStart li i{ background:url(../img/28.png) no-repeat; color: #fff; font-size:20px; line-height:24px; height:95px; position: absolute;  width:42px; padding:10px 15px; font-style: normal;}
-.nsStart .ns_nsStart li.st_1 i{ top:135px; left:265px;}
-.nsStart .ns_nsStart li.st_2 i{ top:125px; left:400px;}
-.nsStart .ns_nsStart li.st_3 i{ top: 65px; left:222px;}
-.nsStart .ns_nsStart li.st_4 i{ top:150px; left:140px;}
-.nsStart .ns_nsStart li.st_5 i{ top:210px; left:405px; z-index:10;}
-.nsStart .ns_nsStart li.st_6 i{ top:285px; left:455px;}
-.nsStart .ns_nsStart li.st_7 i{ top:165px; left:370px; z-index:9;}
 
-.nsStart .ns_nsStart li:hover{ background:url(../img/ico.png) no-repeat scroll 0 0;}
-.nsStart .ns_nsStart li:hover i{ background-position:-100px 0; z-index:11;}
 /* NASH.WORK css*/
 .nashwork{ background:url(../img/a_03.jpg) no-repeat; height:650px;}
 .nashwork_h2{ color:#fff;font-size:90px; line-height:87px; border-bottom:1px solid #fff; padding-top:203px; width:560px; margin:0 auto; text-align:center;} 

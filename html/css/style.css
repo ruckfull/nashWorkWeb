@@ -27,8 +27,10 @@
 	color: #fff;
 }
 .header .header_nav h2 {
-	line-height: 150px;
-	padding-top: 40px;
+	line-height: 160px;
+	height: 90px;
+	padding-top: 50px;
+	padding-bottom: 10px;
 	letter-spacing: 30px;
 	font-size: 25px;
 	float: left;
@@ -368,76 +370,7 @@ div.introduction h3 {
     line-height: 35px;
     padding: 45px 0;
 }
-.garrison_map {
-	height: 480px;
-	position: relative;
-	background: #ffae44;
-}
-.ns_nsStart {
-	width: 320px;
-	position: absolute;
-	background: url(../img/06.jpg) no-repeat scroll left top;
-	top: 50px;
-	left: 50%;
-	height: 320px;
-	margin-left: -510px;
-	padding: 100px 0 0 680px;
-}
-.ns_nsStart li {
-	width: 120px;
-	float: left;
-	font-size:20px;
-	line-height:60px;
-	background: url(../img/line.jpg) repeat-y;
-	padding-left: 20px
-}
-.ns_nsStart li i {
-	background: url(../img/28.png) no-repeat;
-	color: #fff;
-	font-size:20px;
-	line-height:24px;
-	height: 95px;
-	position: absolute;
-	width: 42px;
-	padding: 10px 15px;
-}
-.ns_nsStart li.st_1 i {
-	top:135px; left:265px;
-	font-style:normal;
-}
-.ns_nsStart li.st_2 i {
-	top:125px; left:400px;
-	font-style:normal;
-}
-.ns_nsStart li.st_3 i {
-	top: 65px; left:222px;
-	font-style:normal;
-}
-.ns_nsStart li.st_4 i {
-	top:150px; left:140px;
-	font-style:normal;
-}
-.ns_nsStart li.st_5 i {
-	top:210px; left:405px;
-	font-style:normal;
-	z-index:10;
-}
-.ns_nsStart li.st_6 i {
-	top:285px; left:455px;
-	font-style:normal;
-}
-.ns_nsStart li.st_7 i {
-	top:165px; left:370px;
-	z-index: 9;
-	font-style:normal;
-}
-.ns_nsStart li:hover {
-	background: url(../img/ico.png) no-repeat scroll 0 0;
-}
-.ns_nsStart li:hover i {
-	background-position: -100px 0;
-	z-index: 11;
-}
+
 .main_pic {
 	background: #f4ebe1;
 	padding: 50px 0;
@@ -488,7 +421,13 @@ div.introduction h3 {
 	padding-left: 20px;
 	color: #676767;
 	margin: 20px 0px;
+	
 }
+.ns_rzqy .h2title img {
+    float: right;
+    display: block;
+    margin-right: 20px;
+    margin-top: 15px;}
 .inCompany {
 	width: 178px;
 	border: 1px solid #e2e2e2;
@@ -801,7 +740,7 @@ filter:Alpha(opacity=35); background:#000;/*实现IE背景透明*/
 }
 .fj_ns ul li img {
 	width: 300px;
-	height: 190px;
+	
 }
 
 
@@ -862,19 +801,10 @@ img.pro-img{width:410px;height:400px;float:left;display:inline;}
 
 /*空间架构师*/
 .layer{ position:absolute;}
-.index-join,.join-join{height:580px;background:#ffae44;color:#363636; position:relative}
-.index-join h3{font-size:60px;position:absolute;top:100px;left:49%;z-index: 1;}
-ul.join-map{width:320px;height:320px;padding:100px 0 0 680px;position:absolute;top:90px;left:50%;margin-left:-510px;background:url(../img/06.jpg) left top no-repeat;}
-.service-img-join ul.join-map {top: 70px;}
-ul.join-map li{width:120px; float:left;font-size:20px; line-height:60px; background:url(../img/line.jpg) repeat-y; padding-left:20px}
-ul.join-map li:hover{background:url(../img/ico.png) no-repeat scroll 0 0;}
-ul.join-map li i{position:absolute;width:54px;height:75px;background:url(../img/28.png) no-repeat;color:#fff;font-size:20px;padding:10px 5px 10px 15px; font: 20px/24px Microsoft YaHei; font-size:20px; line-height:24px;}
-ul.join-map li a:hover{}
-ul.join-map li a:hover i{background-position:-100px 0;z-index:11;}
-ul.join-map li.ij-1 i{top:135px;left:265px;}
-ul.join-map li.ij-2 i{top:123px;left:403px;}
-ul.join-map li.ij-3 i{top:68px;left:222px;}
-ul.join-map li.ij-4 i{top:150px;left:133px;}
-ul.join-map li.ij-5 i{top:210px;left:400px; z-index:10;}
-ul.join-map li.ij-6 i{top:285px;left:450px;}
-ul.join-map li.ij-7 i{top:165px;left:370px;z-index:9;}
+
+
+/*service_服务*/
+.service{ position: absolute; width: 100%; height: 100%; background: url(../img/service/banwu/banner.jpg) no-repeat; background-position: center top;}
+.ourservice{position:relative;color: #4e4e4e;font-size: 48px;line-height: 75px;padding-top: 65px;letter-spacing: 20px;text-align: center;}
+.ourservice_sl{width: 370px;text-align: center;border: 1px solid #F3982D;font-size: 18px;line-height: 38px;color: #F3982D;margin: 0px auto;}
+.ourservice_jqkc{position:relative;color: #4e4e4e;font-size: 18px;letter-spacing: 5px;line-height: 70px;text-align: center;}

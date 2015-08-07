@@ -1,0 +1,252 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>纳什空间 | 智慧大厦项目</title>
+<meta name="viewport" content="width=640,user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="css/m.css" />
+<script type="text/javascript" src="js/common.js"></script>
+<script src="js/lunbo.js"></script>
+</head>
+<body>
+<script>
+window.onload = function(){
+	//id('page').style.height=content().h+"px";	
+	fnLunbo('banner');
+	//fnLunbo('around');
+	fnLunbo('apartment');
+	//fnBus();
+};
+$(function(){
+	var $span  = $('.logo span');
+	var $page  = $('.welcom');
+	var $nav = $('#nav'); 
+	var $viewW = $(window).width();
+	var $navW = $('#nav').width();
+	var offBut = true;
+	//$nav.css('left', $viewW);
+    
+	$span.on('touchend',function(){
+		if(offBut){
+			//$nav.css('left', $viewW-$navW);
+			$nav.css('opacity', '1');
+			$nav.css('zIndex', '10');
+			$page.css('left', -$navW);
+		}else{
+			//$nav.css('left', $viewW);
+			$nav.css('opacity', '0');
+			$page.css('left', '0px');
+			$nav.css('zIndex', '0');
+		}
+		offBut = !offBut;
+	});
+});
+</script>
+<div class="page">
+  <div class="header"> 
+   <div id="nav">
+    <div class="nav_top"></div>
+    <div class="nav_secrch">
+     <!-- <form action="#" id="" class="">
+        <input type="search" name="sid" value="	">
+        <input type="botton" name="sid" value="">
+      </form>-->
+    </div>
+    <ul>
+      <li><a href="index.html">首页</a></li>
+      <li><a href="about.html">关于纳什</a></li>
+      <li><a href="join.html">进驻纳什</a></li>
+      <li><a href="service.html">业主服务</a></li>
+      <li><a href="job.html">加入纳什</a></li>
+    </ul>
+  </div>
+    <!-- logo nav start-->
+    <div class="welcom">
+      <div class="logo"><img src="img/logo.jpg" width="100" height="100"  alt=""/>
+        <h2>纳什空间</h2>
+        <span><img src="img/menu.png" width="60" height="60"  alt=""/></span> </div>
+    </div>
+    <!-- logo nav end--> 
+  </div>
+  <!-- 轮播图 start-->
+  <div id="banner">
+    <ul id="banner_pic">
+      <li><img src="img/project/zhihui/banner1.jpg" /></li>
+      <li><img src="img/project/zhihui/banner2.jpg" /></li>
+      <li><img src="img/project/zhihui/banner3.jpg" /></li>
+    </ul>
+    <div class="picMask">
+      <nav> <a href="javascript:;" class="active"></a> <a href="javascript:;"></a> <a href="javascript:;"></a></nav>
+    </div>
+  </div>
+  <!-- 轮播图 end--> 
+  <!--center start-->
+  <div class="content"> 
+    <!--简介 start-->
+    <h2 class="xmtitle">[智慧大厦办公空间招募]</h2>
+    <p class="xm_c">超炫办公空间，有才的你敢不敢来？！</p>
+  </div>
+  <!--简介 end--> 
+  <!--项目展示 start-->
+  <div class="pro_display clearfix">
+    <div class="pro-img-box"> <img src="img/project/zhihui/zhihuidasha.jpg"></div>
+   <div id="apartment">
+     <ul id="apart_pic">
+            <li><img src="img/project/zhihui/huxing1.jpg" alt=""/></li>
+            <li><img src="img/project/zhihui/huxing2.jpg" alt=""/></li>
+            <li><img src="img/project/zhihui/huxing3.jpg" alt=""/></li>
+            <li><img src="img/project/zhihui/huxing4.jpg" alt=""/></li>
+          </ul>
+           <div class="picMask">
+      <nav> <a href="javascript:;" class="active"></a> <a href="javascript:;"></a> <a href="javascript:;"></a><a href="javascript:;"></a></nav>
+    </div>
+    </div>
+  </div>
+
+  <!--项目展示 end--> 
+  <!--招募入驻企业 start-->
+ <div class="rct_into">
+    <div class="content">
+      <div class="fl pro_w770">
+        <h3>招募入驻企业</h3>
+        <p>1、寻找60-200平米办公空间的企业。</p>
+        <p>2、互联网、咨询，交通运输，科技，驻京代表处等。</p>
+        <p>3、也欢迎对该社区感兴趣其他企业哦。</p>
+      </div>
+      <div class="pro_w140 clearfix">
+      <p><img src="img/project/zhihui/jgsliuxuechen.jpg"></p>
+      <div class="jgs">
+      <p class="fs16">空间架构师</p>
+      <p>刘学臣 13651151196</p>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!--招募入驻企业 end--> 
+  <!--项目介绍 start-->
+<div style="position:relative; width:100%;">
+    <div class="content">
+      <h2 class="pro_introduction">项目介绍</h2>
+      <div class="clearfix pro_map">
+        <div class="pro_w420">
+          <iframe width="640" height="460" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://restapi.amap.com/v3/staticmap?location=116.353507,39.957563&zoom=17&size=640*460&labels=%E6%99%BA%E6%85%A7%E5%A4%A7%E5%8E%A6,2,0,16,0xFFFFFF,0x5288d8:116.353648,39.957493&key=ee95e52bf08006f63fd29bcfbcf21df0"></iframe>
+         <!-- <p class="mapfont"><a href="http://www.amap.com/#!poi!!q=永利大厦&_t=1435038963146&qcity=110000&ac=false">-> 查看地图</a></p>-->
+        </div>
+        <div class="pro_w510">
+          <p>1、位置：</p>
+          <p>2环、3环之间，学院南路标志性建筑，是北二三环枢纽。</p>
+          <p>2、地铁：</p>
+          <p>地铁13号线、地铁2号线；<br>
+20余条公交线路纵横交错，通往城市各个核心区。</p>
+          <p>3、配套</p>
+          <p>商业氛围无与伦比，辐射西直门商圈、马甸商圈、中关村商圈和德胜门大街商圈；<br>
+更聚集有大量中国的知名学府，如北京邮电大学，北京交通大学，中央财经大学等，真正是人才，技术一网打尽！
+商业发展带动基础设施的建设，北京华联超市、宜家家居等知名商场散布周边，窑洼湖公园、官园公园、动物园，点亮生活！</p>
+        </div>
+      </div>
+     <div class="pic_ul" style="margin-left:10px;">
+       <a href="javascript:;" _data="0"><img src="img/project/zhihui/aroundja.jpg" ></a>
+      </div>
+    </div>
+  </div>
+  <!--项目介绍 end--> 
+  <!--入驻企业感言 start-->
+  <div class="ganyan">
+    <div class="content">
+      <h2>入驻企业负责人感言：</h2>
+          <ul class="clearfix gy_ul">
+            <li class="fl gy_w160"><img src="img/xm1.jpg"></li>
+            <li class="fl gy_w765">
+              <p class="fs20">朱旭</p>
+              <p class="fs20">悟空租车 首席市场官</p>
+              <p><span class="yhleft">&nbsp;</span>我们入驻银座社区是个正确的选择，因为还有纳什空间办公社交平台，让我们迅速认识了很多楼内的客户和很多志同道合的小伙伴们。<span class="yhrigth">&nbsp;</span></p>
+            </li>
+          </ul>
+          <ul class="clearfix gy_ul">
+            <li class="fl gy_w765">
+              <p class="fs20">孙阳</p>
+              <p class="fs20">北京1580互联网 联合创始人</p>
+              <p><span class="yhleft">&nbsp;</span>纳什空间帮助我们快速的找到了适合我们的办公空间，对于我们公司来说很适合，租金相对合理，无论接待客户，还是员工上下班都很方便。<span class="yhrigth">&nbsp;</span></p>
+            </li>
+            <li class="fl gy_w160"><img src="img/xm2.jpg"></li>
+          </ul>
+       
+          <ul class="clearfix gy_ul">
+            <li class="fl gy_w160"><img src="img/xm3.jpg"></li>
+            <li class="fl gy_w765">
+              <p class="fs20">张海晗</p>
+              <p class="fs20">童伴教育 联合创始人</p>
+              <p><span class="yhleft">&nbsp;</span>纳什空间的共享办公服务提高了我们的办公效率，让我们专注于我们的产品。<span class="yhrigth">&nbsp;</span></p>
+            </li>
+        
+      </ul>
+    </div>
+    </div>
+  <!--入驻企业感言 end--> 
+  <!--入驻企业 start-->
+  <div class="clearfix  ns_rzqy"></div>
+  <!--附近的项目--->
+  <div class="fj_ns">
+  <div class="content">
+    <h2>附近纳什空间项目</h2>
+    <ul class="clearfix">
+      <a href="join_zhihui.html" target="_blank">
+      <li class="fl">
+        <p><img src="img/zhds.jpg" alt="智慧大厦"></p>
+        <p>智慧大厦<br>
+          电话：010-59464380</p>
+      </li>
+      </a> <a href="join_yiduge.html" target="_blank">
+      <li class="fl">
+        <p><img src="img/ydgds.jpg" alt="依都阁"></p>
+        <p>依都阁<br>
+          电话：010-59464380</p>
+      </li>
+      </a>
+    </ul>
+  </div>
+</div>
+<!--附近纳什空间项目 end--> 
+  <div class="footer-low">
+    <footer> <a href="index.html" class="logo-foot"><img src="img/08.jpg" alt="NASH.work"></a><br>
+      <a href="contact.html" class="link">联系我们</a><span>|</span><a href="link.html" class="link">友情链接</a>
+      <p class="copyRight">2015 纳什空间 版权所有 nash.work</p>
+      <a href="javascript:void(0)" class="wx"><img src="img/10.gif" alt=""><i></i></a></footer>
+  </div>
+</div>
+<script type="text/javascript">
+/*$('.footer-low').on('click',function(e){
+		e.preventDefault();
+		$('.wx i').hide();
+	});*/
+ $(document).ready(function(){  
+    $(".ns_rzqy").load("company.html");
+});
+</script>
+<script src="js/statistics.js"></script>
+   
+<!--<script type="text/javascript">
+
+$(function(){
+	$('.pic_ul a').on('click',function(e){
+		e.preventDefault();
+		var id = this.getAttribute('_data');
+		alert(id);
+		if(id){
+			$('#around').show();
+		}
+	});
+	$('#around').on('click',function(e){
+		e.preventDefault();
+		$(this).hide();
+	});
+});
+</script>-->
+<!--<script>
+$(document).ready(function(e) {
+   openmap("金澳国际");
+});
+
+</script>-->
+</body>
+</html>

@@ -65,20 +65,20 @@ function fnLunbo(Id)
 	bind(oTab,"touchstart",fnStart);
 	bind(oTab,"touchmove",fnMove);
 	bind(oTab,"touchend",fnEnd);
-	auto();
+	//auto();
 	if(!window.BfnScore)
 	{
 		
 		window.BfnScore=true;
 	}
-	function auto()
+/*	function auto()
 	{
 		oTimer=setInterval(function(){
 			iNow++;	
 			iNow=iNow%aNav.length;
 			tab();
 		},2000);
-	}
+	}*/
 	function fnStart(ev)
 	{
 		oList.style.transition="none";
@@ -107,7 +107,7 @@ function fnLunbo(Id)
 			iNow=aNav.length-1;
 		}
 		tab();
-		auto();
+		//auto();
 	}
 	function tab()
 	{
@@ -140,12 +140,14 @@ function fnBus(){
 			for(var i=0; i<busA.length; i++){
 				removeClass(busA[i],"active");
 				removeClass(busli[i],"active");
-				busA[i].style.zIndex =1;
+				busA[i].style.zIndex ='0';
+				
 			}
 			addClass(busA[this.index],"active");
 			addClass(busli[this.index],"active");
-			this.style.zIndex =2;
+			busA[this.index].style.zIndex ='10';
+			
+			
 		}
 	}
 };
-
