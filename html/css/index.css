@@ -1,16 +1,15 @@
 /* header css*/
-.header{overflow:hidden; width:100%; height:810px; }
+.header{overflow:hidden; width:100%; height:750px; }
 .header .focus { margin-top:-160px; position:absolute;}
 .header .focus li,.header .header_nav .nav li{ float:left;}
 .header .focus li img{ width:100%; height:810px;}
-.header .header_nav{height:160px; margin:0 auto; color:#fff; width:1000px; position:relative; z-index:999;}
+.header .header_nav{height:150px; margin:0 auto; color:#fff; width:1000px; position:relative; z-index:999;}
 .header .header_nav a{ color:#fff;}
 .header .header_nav h2{ line-height:150px; padding-top:50px; letter-spacing:30px; font-size:25px; float:left;}
 .header .header_nav h2 img{ margin-right:30px;}
 .header .header_nav .nav{ float:right; font-size:16px;}
 .header .header_nav .nav li{ margin:0px 15px; padding:40px 20px 0; line-height:50px;}
 .header .header_nav .nav li:hover{ background:rgba(0, 0, 0, 0.35) none repeat scroll 0 0 !important;/*实现FF背景透明，文字不透明*/filter:Alpha(opacity=35); background:#000;/*实现IE背景透明*/}
-<!--.header .header_nav .nav li.on{ background:#2e2c2b;}-->
 .header .header_nav .nav li.on{background:rgba(0, 0, 0, 0.35) none repeat scroll 0 0 !important;/*实现FF背景透明，文字不透明*/
 filter:Alpha(opacity=35); background:#000;/*实现IE背景透明*/}
 .header .nash {position:relative; z-index:999; color:#fff; width:100%; overflow:hidden; text-align:center; margin-top:100px;}

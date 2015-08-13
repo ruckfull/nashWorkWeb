@@ -1,60 +1,15 @@
-/* header css*/
 .header {
 	overflow: hidden;
 	width: 100%;
-	height: 460px;
 	background: #232323;
 }
-.header .focus {
-	position: absolute;
-}
-.header .focus li, .header .header_nav .nav li {
-	float: left;
-}
-.header .focus li img {
-	width: 100%;
-	height: 320px;
-}
-.header .header_nav {
-	height: 160px;
-	margin: 0 auto;
-	color: #fff;
-	width: 1000px;
-	position: relative;
-	z-index: 999;
-}
-.header .header_nav a {
-	color: #fff;
-}
-.header .header_nav h2 {
-	line-height: 160px;
-	height: 90px;
-	padding-top: 50px;
-	padding-bottom: 10px;
-	letter-spacing: 30px;
-	font-size: 25px;
-	float: left;
-}
-.header .header_nav h2 img {
-	margin-right: 30px;
-}
-.header .header_nav .nav {
-	float: right;
-	font-size: 16px;
-}
-.header .header_nav .nav li {
-	margin: 0px 15px;
-	padding: 40px 20px 0;
-	line-height: 50px;
-}
-.header .header_nav .nav li:hover {
-	background:rgba(0, 0, 0, 0.35) none repeat scroll 0 0 !important;/*实现FF背景透明，文字不透明*/
-filter:Alpha(opacity=35); background:#000;/*实现IE背景透明*/
-}
-.header .header_nav .nav li.on {
-	background:rgba(0, 0, 0, 0.35) none repeat scroll 0 0 !important;/*实现FF背景透明，文字不透明*/
-filter:Alpha(opacity=35); background:#000;/*实现IE背景透明*/
-}
+.banner{ 
+	background:url(../img/banner_02.jpg) no-repeat;
+	 background-position: center center; 
+	 width: 100%; 
+	 height: 320px;
+	 background-size: cover;
+	}
 .content {
 	margin: 0 auto;
 	width: 960px;
@@ -66,8 +21,7 @@ filter:Alpha(opacity=35); background:#000;/*实现IE背景透明*/
 	background: url(../img/hearderline.png) no-repeat scroll center 20px;
 	color: #f3982d;
 	text-align: center;
-	margin-top: 150px;
-	position: relative;
+	margin-top: -175px;
 }
 .work_sl {
 	width: 370px;
@@ -148,7 +102,7 @@ filter:Alpha(opacity=35); background:#000;/*实现IE背景透明*/
 	line-height:55px;
 	text-align: center;
 	color: #363636;
-	margin: 50px auto 50px;
+	margin: 115px auto 50px;
 	border-bottom: 1px solid #333e4b;
 	padding-bottom: 30px;
 }
@@ -190,14 +144,6 @@ filter:Alpha(opacity=35); background:#000;/*实现IE背景透明*/
 	border-right: none;
 }
 /*关于nash*/
-.about {
-	margin: 55px 0 45px;
-	font-size: 15px;
-	line-height: 30px;
-}
-.text {
-	text-indent: 2em;
-}
 .ourcourse {
 	height: 370px;
 	background: #f4f4f4;
@@ -365,10 +311,9 @@ div.introduction h3 {
 /*进驻纳什*/
 
 .content .garrison_c {
-	text-indent: 2em;
 	font-size: 15px;
     line-height: 35px;
-    padding: 45px 0;
+    padding: 115px 0px 50px;
 }
 
 .main_pic {
@@ -474,64 +419,6 @@ div.introduction h3 {
 }
 /*项目样式*/
 /*进驻纳什 项目*/
-.projectheader {
-	overflow: hidden;
-	width: 100%;
-	height: 730px;
-    background-position: center 130px;
-    background-repeat: no-repeat;
-	
-}
-.projectheader .headerbg{ width:100%; background: #232323; height:130px;}
-.projectheader .focus {
-	position:relative;
-}
-.projectheader .focus li, .projectheader .header_nav .nav li {
-	float: left;
-}
-.projectheader .focus li img {
-	width: 100%;
-	height:810px;
-	 margin-top: -50px;
-}
-.projectheader .header_nav {
-	height: 160px;
-	margin: 0 auto;
-	color: #fff;
-	width: 1000px;
-	position: relative;
-	z-index: 999;
-}
-.projectheader .header_nav a {
-	color: #fff;
-}
-.projectheader .header_nav h2 {
-	line-height: 150px;
-	padding-top: 30px;
-	letter-spacing: 30px;
-	font-size: 25px;
-	float: left;
-}
-.projectheader .header_nav h2 img {
-	margin-right: 30px;
-}
-.projectheader .header_nav .nav {
-	float: right;
-	font-size: 16px;
-}
-.projectheader .header_nav .nav li {
-	margin: 0px 15px;
-	padding: 40px 20px 0;
-	line-height: 50px;
-}
-.projectheader .header_nav .nav li:hover {
-	background:rgba(0, 0, 0, 0.35) none repeat scroll 0 0 !important;/*实现FF背景透明，文字不透明*/
-filter:Alpha(opacity=35); background:#000;/*实现IE背景透明*/
-}
-.projectheader .header_nav .nav li.on {
-	background:rgba(0, 0, 0, 0.35) none repeat scroll 0 0 !important;/*实现FF背景透明，文字不透明*/
-filter:Alpha(opacity=35); background:#000;/*实现IE背景透明*/
-}
 .xmtitle {
 	font-size:48px;
 	line-height:82px;
@@ -661,61 +548,7 @@ filter:Alpha(opacity=35); background:#000;/*实现IE背景透明*/
 	margin-left: 275px;
 *margin-left:0px !important;
 }
-.ganyan {
-	background: #f5ebdd;
-	height: 720px;
-	padding-top: 40px;
-}
-.ganyan h2 {
-	font-size: 36px;
-	line-height: 36px;
-	text-align: center;
-	color:#535353;
-	
-}
-.ganyan .gy_ul {
-	margin-top: 30px;
-}
-.ganyan .gy_ul .gy_w160 {
-	width: 160px;
-}
-.ganyan .gy_ul .gy_w765 {
-	width: 760px;
-	color: #4d4d4d;
-	font-size:14px;
-	line-height:30px;
-	border-bottom: 1px solid #d3ccc2;
-	padding-bottom: 30px;
-	padding: 0 20px;
-}
-.ganyan .gy_ul .gy_w765 p {
-	margin-bottom: 15px;
-}
-.ganyan .gy_ul .gy_w765 p img {
-	width: 160px;
-	height: 160px;
-	border-radius: 80px;
-	-moz-border-radius: 80px;
-	-o-border-radius: 80px;
-	-webkit-border-radius: 80px;
-}
-.ganyan .gy_ul .gy_w765 p.fs20 {
-	font-size:20px;
-	line-height:30px;
-	color: #363636;
-}
-.ganyan .gy_ul .gy_w765 p span.yhleft {
-	background: url(../img/yihao.png) no-repeat;
-	width: 32px;
-	display: inline-block;
-	padding-left: 10px;
-}
-.ganyan .gy_ul .gy_w765 p span.yhrigth {
-	background: url(../img/yihao.png) no-repeat scroll 0 -74px;
-	width: 32px;
-	display: inline-block;
-	padding-left: 10px;
-}
+
 .fj_ns {
 	background: #f4f4f4;
 	height: 460px;
@@ -800,7 +633,7 @@ img.pro-img{width:410px;height:400px;float:left;display:inline;}
 
 
 /*空间架构师*/
-.layer{ position:absolute;}
+.layer{ position:relative;}
 
 
 /*service_服务*/
