@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-body{font-size:1.2rem; font-family:Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif; }
+body{font-size:1.6rem; font-family:Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif; }
 body,p,ul,li,ol,h1,h2,h3,h4,h5,h6,dl,dt,dd,form,iframe,input,select{margin:0;padding:0; border:none;}
 ul,ul li,ol,li{list-style:none outside none;}
 img{ border:0 none; vertical-align:top;}

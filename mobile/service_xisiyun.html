@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>共享服务_犀思云</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" type="text/css" href="css/service.css" />
+	</head>
+	<body>
+<script>
+window.onload = function(){
+$(function(){
+	var $span  = $('.welcom .menu');
+	var $page  = $('.welcom');
+	var $nav = $('#nav'); 
+	var $viewW = $(window).width();
+	var $navW = $('#nav').width();
+	var offBut = true;
+	$span.on('touchend',function(){
+		if(offBut){
+			$nav.css('opacity', '1');
+			$nav.css('zIndex', '10');
+			$page.css('left', -$navW);
+		}else{
+			$nav.css('opacity', '0');
+			$page.css('left', '0px');
+			$nav.css('zIndex', '0');
+		}
+		offBut = !offBut;
+	});
+});
+};
+
+</script>
+<style>
+
+</style>
+<div class="header"> 
+  <!-- logo nav start-->
+   <div id="nav">
+    <div class="nav_top"></div>
+    <div class="nav_secrch">
+    </div>
+    <ul>
+      <li><a href="index.html">首页</a></li>
+      <li><a href="about.html">关于纳什</a></li>
+      <li><a href="join.html">进驻纳什</a></li>
+      <li><a href="service.html">业主服务</a></li>
+      <li><a href="job.html">加入纳什</a></li>
+    </ul>
+  </div>
+  <div class="welcom">
+    <div class="logo">
+       <div class="fl fl_9"><img src="img/logo.jpg" alt=""/></div>
+       <div class="fr fl_89"><h2>纳什空间</h2></div> 
+    </div>
+    <div class="menu"><img src="img/menu.png" alt=""/></div>
+  </div>
+  <!-- logo nav end--> 
+</div>
+ <!-- banner图-->
+<div class="banner lay">
+  <div class="service"></div>
+  <!-- banner图 end--> 
+    <!--共享服务 start-->
+  <h2 class="ourservice">共享服务
+    <p class="ourservice_sl">NASH.WORK</p>
+  </h2>
+  <p class="ourservice_jqkc">专注·享受  每天的工作</p>
+  </div>
+  <!--共享服务 end--> 
+<!--hearder end--> 
+<!--center start-->
+<div class="main_logo">
+<div class="content"> 
+	<div class="about_style clearfix">
+		<div class="clearfix logo_title"><img class="fl" src="img/service/bgkj_icon.jpg"><p class="fr">办公空间 • 移动互联</p></div>	
+	</div> 
+</div>
+</div>
+<div class="main_top pubmain">
+	<div class="content">
+		<div class="logoright">
+			<ul class="clearfix">
+				<li class="fl"><img src="img/service/ns_logo.png"></li>
+				<li class="fr"><img src="img/service/xisiyun/xsy_logo.jpg"></li>
+			</ul>
+	</div>
+		<p class="garrison_c">云解决方案就像我们生活中的水和电一样，无处不在你的身边。<br>
+通过我们完美的客户端可以让您在任何场合进入自己的工作空间，享受随时随地办公的自由。<br>
+您的文件将会在云计算平台上恒久在线，并具备自动高可用和灾难恢复的强大功能，使您所有的重要文件得到高度安全保障。</p>		
+	</div>
+</div>
+<div class="main_service pubmain">
+	<div class="content">
+		<h2>服务内容</h2>
+		<p class="intr"><span>1. 云桌面</span><span>2. 公有云服务（含云存储）</span><span>3. 宽带上网 </span><span>4. 虚拟数据中心</span><span>5. 监控存储</span></p>
+	</div>
+</div>
+<div class="main_process pubmain">
+	<div class="content">
+		<h2>服务流程</h2>
+		<ul class="pro">
+			<li><div>1</div><a href="javascript:;">到服务中心报名</a></li>
+			<li><div>2</div><a href="javascript:;">专席电话回访</a></li>
+			<li><div>3</div><a href="javascript:;">注册办理</a></li>
+			<li><div>4</div><a href="javascript:;">付费结算</a></li>
+		</ul>
+	</div>
+</div>
+<div class="youbo_logo">
+	<div class="content">
+		<div class="logo clearfix">
+		<div class="logo_banner"><img src="img/service/xisiyun/xisiyun_logo.jpg" /></div>		
+		<div class="title">连接企业的云</div>
+		</div>
+	</div>	
+</div>
+<div class="main_bottom pubmain">
+	<div class="content">
+		<p class="garrison_c">犀思云是一家以网络连接为核心的综合性互联网高科技企业，致力于为用户提供高效、安全、可靠的云应用基础设施服务—云计算IAAS领域内网络、计算、存储、安全等服务，以及面向互联网及传统行业的混合云技术解决方案。</p>		
+	</div>
+</div>
+<div class="content">
+	<h2>服务简介</h2>
+	<ul class="about_our clearfix">
+		<li><h4><img src="img/service/xisiyun/icon1.gif"><br>云桌面</h4>云桌面是专门为园区中的众多企业提供低成本的企业工具和服务的一个业务平台。在内部管理的经验基础上，提供一个模版化的服务平台，为企业提供各种形式的管理型应用工具。</li>
+<li><h4><img src="img/service/xisiyun/icon2.gif"><br>公有云服务（含云存储）</h4>犀思公有云采用高性能服务器和成熟的KVM虚拟化技术提供云主机服务。犀思云主机可自定义所有配置，网络全部采用BGP四线线路，为数据存储、数据库、WEB服务器等应用搭建高可用性环境。</li>
+<li><h4><img src="img/service/xisiyun/icon3.gif"><br>宽带上网</h4>犀思云ISP专线骨干网与中国电信、中国联通互联，通过BGP解决了传统意义上的南北互联瓶颈问题，提供给用户可靠、快速的网络环境，同时通过与科技网的互联提供给用户高速的出口路径。</li>
+<li><h4><img src="img/service/xisiyun/icon4.gif"><br>虚拟数据中心</h4>犀思云的虚拟数据中心，是为了实现数据中心的完全虚拟化，使数据中心计算、网络、存储等资源可按需动态分配、应用可快速部署、整体系统经济高效；在此基础上，在配置应用服务的自动化部署、管理和计费等功能，从而实现云计算。</li>
+<li><h4><img src="img/service/xisiyun/icon5.gif"><br>监控存储</h4>犀思云智能建筑综合管理平台，前端可接入监控设备、入侵报警设备、车辆管理设备、可视对讲设备及电梯层控设备等众多子系统设备，后端通过统一数据库进行数据存储。</li>
+	<style>
+			.about_our li{width: 100%; text-align: center; font-size: 1.4rem;}
+		</style>
+	</ul>
+	<p class="garrison_c">
+		只为纳什……<br>
+	</p>
+</div>
+<div class="service_price">
+<div class="content">
+	<h2>服务内容价格表</h2>
+	<img src="img/service/xisiyun/logo.jpg" />
+</div> 
+</div>
+<div class="content">
+	<p class="tel">详情请咨询所在地纳什服务中心</p>
+</div>
+<!--center end--> 
+<!--footer start-->
+<div class="footer-low">
+    <footer> <a href="index.html" class="logo-foot"><img src="img/08.jpg" alt="NASH.work"></a><br>
+      <a href="contact.html" class="link">联系我们</a><span>|</span><a href="link.html" class="link">友情链接</a>
+      <p class="copyRight">2015 纳什空间 版权所有 nash.work</p>
+      <div class="weixi">
+      <p class="wx">&nbsp;</p><a href="javascript:void(0)"><img class="img1" src="img/10.gif" alt=""></a></div>
+    </footer>
+</div>
+<!--footer end-->
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript">
+        
+        $(function(){
+        	$('.weixi').click(function(){
+            $('.img1').toggle();
+            });
+        });
+        </script>
+
+<script src="js/statistics.js"></script>
+</body>
+</html>

@@ -149,41 +149,9 @@ $(function(){
     </div>
   </div>
   <!--项目介绍 end--> 
-  <!--入驻企业感言 start-->
-  <div class="ganyan">
-    <div class="content">
-      <h2>入驻企业负责人感言：</h2>
-          <ul class="clearfix gy_ul">
-            <li class="fl gy_w160"><img src="img/xm1.jpg"></li>
-            <li class="fl gy_w765">
-              <p class="fs20">朱旭</p>
-              <p class="fs20">悟空租车 首席市场官</p>
-              <p><span class="yhleft">&nbsp;</span>我们入驻银座社区是个正确的选择，因为还有纳什空间办公社交平台，让我们迅速认识了很多楼内的客户和很多志同道合的小伙伴们。<span class="yhrigth">&nbsp;</span></p>
-            </li>
-          </ul>
-          <ul class="clearfix gy_ul">
-            <li class="fl gy_w765">
-              <p class="fs20">孙阳</p>
-              <p class="fs20">北京1580互联网 联合创始人</p>
-              <p><span class="yhleft">&nbsp;</span>纳什空间帮助我们快速的找到了适合我们的办公空间，对于我们公司来说很适合，租金相对合理，无论接待客户，还是员工上下班都很方便。<span class="yhrigth">&nbsp;</span></p>
-            </li>
-            <li class="fl gy_w160"><img src="img/xm2.jpg"></li>
-          </ul>
-       
-          <ul class="clearfix gy_ul">
-            <li class="fl gy_w160"><img src="img/xm3.jpg"></li>
-            <li class="fl gy_w765">
-              <p class="fs20">张海晗</p>
-              <p class="fs20">童伴教育 联合创始人</p>
-              <p><span class="yhleft">&nbsp;</span>纳什空间的共享办公服务提高了我们的办公效率，让我们专注于我们的产品。<span class="yhrigth">&nbsp;</span></p>
-            </li>
-        
-      </ul>
-    </div>
-    </div>
-  <!--入驻企业感言 end--> 
-  <!--入驻企业 start-->
-  <div class="clearfix  ns_rzqy"></div>
+   <!--入驻感言/企业 start--->
+<div class="join_ganyan"></div>
+  <!--入驻感言/企业 end--->
   <!--附近的项目--->
   <div class="fj_ns">
   <div class="content">
@@ -214,37 +182,10 @@ $(function(){
   </div>
 </div>
 <script type="text/javascript">
-/*$('.footer-low').on('click',function(e){
-		e.preventDefault();
-		$('.wx i').hide();
-	});*/
  $(document).ready(function(){  
-    $(".ns_rzqy").load("company.html");
+    $(".join_ganyan").load("company.html");
 });	
 </script>
 <script src="js/statistics.js"></script>
-<!--<script type="text/javascript">
-
-$(function(){
-	$('.pic_ul a').on('click',function(e){
-		e.preventDefault();
-		var id = this.getAttribute('_data');
-		alert(id);
-		if(id){
-			$('#around').show();
-		}
-	});
-	$('#around').on('click',function(e){
-		e.preventDefault();
-		$(this).hide();
-	});
-});
-</script>-->
-<!--<script>
-$(document).ready(function(e) {
-   openmap("宇飞大厦");
-});
-
-</script>-->
 </body>
 </html>

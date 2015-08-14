@@ -1,13 +1,13 @@
 html {
 	width: 100%;
 	font-size: 62.5%;
-	-webkit-text-size-adjust:100%;
+	-webkit-text-size-adjust:none;
 	font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
 }
 body {
 	width: 100%;
 	overflow-y: scroll;
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	color: #3c3c3c;
 	background: #fff;
 	min-height: 100%;
@@ -158,7 +158,7 @@ a:hover {
 .layer-ban p {
 	text-indent: 2em;
 	color: #4a4a4a;
-	font-size: 2.2rem;
+	font-size: 1.6rem;
 	line-height: 3.5rem;
 	padding-left: 2%;
 	padding-right: 2%;
@@ -674,67 +674,7 @@ a:hover {
 	height: 40px;
 	line-height: 40px;
 }
-.ganyan {
-	background: #f5ebdd;
-	margin-top: 40px;
-}
-.ganyan h2 {
-	font-size: 36px;
-	line-height: 36px;
-	text-align: center;
-	color: #535353;
-	padding-top:60px;
-}
-.ganyan .content{ background:#f5ebdd;}
-.ganyan .content .picList li {
-	float: left;
-}
-.ganyan .gy_ul {
-	padding-top: 30px;
-	width: 580px;
-	padding-left:30px;
-	padding-right:30px;
-}
-.ganyan .gy_ul .gy_w160 {
-	width: 160px;
-	float: left;
-}
-.ganyan .gy_ul .gy_w765 {
-	color: #4d4d4d;
-	font-size: 2rem;
-	line-height: 30px;
-	padding-bottom: 30px;
-	float: right;
-	width: 320px;
-}
-.ganyan .gy_ul .gy_w765 p {
-	margin-bottom: 15px;
-}
-.ganyan .gy_ul .gy_w765 p img {
-	width: 160px;
-	height: 160px;
-	border-radius: 80px;
-	-moz-border-radius: 80px;
-	-o-border-radius: 80px;
-	-webkit-border-radius: 80px;
-}
-.ganyan .gy_ul .gy_w765 p.fs20 {
-	font-size: 2.2rem;
-	line-height: 30px;
-	color: #363636;
-}
-.ganyan .gy_ul .gy_w765 p span.yhleft {
-	background: url(../img/yihao.png) no-repeat;
-	width: 32px;
-	display: inline-block;
-	padding-left: 10px;
-}
-.ganyan .gy_ul .gy_w765 p span.yhrigth {
-	background: url(../img/yihao.png) no-repeat scroll 0 -74px;
-	width: 32px;
-	display: inline-block;
-	padding-left: 10px;
-}
+
 .fj_ns {
 	background: #f4f4f4;
 	height: 100%;
